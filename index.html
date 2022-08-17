@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Pinnacle Systems Ltd</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"/>
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--For the Nav bar-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--------Navigation Menu-------->
+    <div class="menu-overlay" id="menu-overlay"></div>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo3.png" alt="logo"></a>
+            </div>
+            <div class="toggle-menu" id="toggle-menu">
+                <img src="images/menu.png" alt="logo">
+            </div>
+            <ul class="nav-list" id="nav-menu">
+                <div class="close-menu" id="close-menu">
+                    <img src="images/close.png" alt="logo">
+                </div>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown" onclick="myFunction()">
+                    <a href="#" class="nav-link dropdown-link">Our Products <img src="images/down-arrow.png" class="drop-arrow" alt="arrow"></a>
+
+                    <div id="myDropdown" class="megamenu">
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Road Safety Equipment</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/fire-extinguisher.png">
+                                    <a href="fireext.html">Fire Extinguishers</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/first-aid-kit.png">
+                                    <a href="firstaid.html">First Aid Kits</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/alert.png">
+                                    <a href="lsavers.html">Life Savers</a><p></p>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/seat-belt.png">
+                                    <a href="seatbelt.html">Seat Belts</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Retro-Reflective Materials</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/lines.png">
+                                    <a href="chevrons.html">Chevrons</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/tape.png">
+                                    <a href="reflectors.html">Reflective Tapes</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/vest.png">
+                                    <a href="svests.html">Safety Vests</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/cone.png">
+                                    <a href="cones.html">Traffic Cones</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Fleet Management</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/canvas.png">
+                                    <a href="canvas.html">Canvas Materials</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/speedometer.png">
+                                    <a href="speed.html">Digital Speed Limiter</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/tracking.png">
+                                    <a href="tracking.html">Vehicle Tracking</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Security Systems</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/car.png">
+                                    <a href="alarm.html">Alarm Systems</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/biometrics.png">
+                                    <a href="biometrics.html">Biometric Systems</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/cctv-camera.png">
+                                    <a href="cctv.html">CCTV Systems</a>
+                                </div>
+                            </li>
+
+                            <a href="products.html"><button class="contbtn">View All Products</button></a>
+                        </ul>
+                        
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown" onclick="myFunctionInd()">
+                    <a href="#" class="nav-link dropdown-link">Industries <img src="images/down-arrow.png" class="drop-arrow" alt="arrow"></a>
+                    <div id="mydropdown-ind" class="megamenu">
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/vehicle.png">
+                                    <a href="industries.html">Fleet Management</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/security.png">
+                                    <a href="security.html">Security Sector</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/vest2.png">
+                                    <a href="reflective.html">Reflective Materials</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/traffic-cone.png">
+                                    <a href="roadsafety.html">Road Safety Equipment</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="careers.html" class="nav-link">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faqs.html" class="nav-link">FAQs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-----Slideshow---->
+    <main class="main-content">
+        <section class="slideshow">
+          <div class="slideshow-inner">
+            <div class="slides">
+                <!--Slide 1-->
+              <div class="slide is-active ">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Fleet Management</div>
+                    <div class="text">
+                      <p>The No.1 Fleet Management Company in Kenya</p>
+                    </div> 
+                    <a href="speed.html" class="slide-btn">
+                      <span class="btn-inner">Learn More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container"> 
+                  <img src="images/services2.jpg" alt="" class="image" />
+                </div>
+              </div>
+
+              <!--Slide 2-->
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Vehicle Tracking</div>
+                    <div class="text">
+                      <p>Real-Time Data From Your Fleet</p>
+                    </div> 
+                    <a href="tracking.html" class="slide-btn">
+                      <span class="btn-inner">Learn More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container">
+                  <img src="images/tracking.jpg" alt="" class="image" />
+                </div>
+              </div>
+
+              <!--Slide 3-->
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Reflective Materials</div>
+                    <div class="text">
+                      <p>High Quality Prismatic Reflective Products</p>
+                    </div> 
+                    <a href="reflectors.html" class="slide-btn">
+                      <span class="btn-inner">Learn More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container">
+                  <img src="images/personal-safety.jpg"  class="image" />
+                </div>
+              </div>
+
+              <!--Slide 4-->
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title">Canvas Products</div>
+                    <div class="text">
+                      <p>Made To Measure Canvas Solutions</p>
+                    </div> 
+                    <a href="canvas.html" class="slide-btn">
+                      <span class="btn-inner">Learn More</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container"> 
+                  <img src="images/canvas.jpg" alt="" class="image" />
+                </div>
+              </div>
+            </div>
+
+            <div class="pagination">
+              <div class="item is-active"> 
+                <span class="icon">1</span>
+              </div>
+              <div class="item">
+                <span class="icon">2</span>
+              </div>
+              <div class="item">
+                <span class="icon">3</span>
+              </div>
+              <div class="item">
+                <span class="icon">4</span>
+              </div>
+            </div>
+            <div class="arrows">
+              <div class="arrow prev">
+                <span class="svg svg-arrow-left">
+                  <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
+                  <span class="alt sr-only"></span>
+                </span>
+              </div>
+              <div class="arrow next">
+                <span class="svg svg-arrow-right">
+                  <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
+                  <span class="alt sr-only"></span>
+                </span>
+              </div>
+            </div>
+          </div> 
+        </section>
+      </main>
+
+      <!-- About Start -->
+    <div class="container-xxl">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-6 wow" data-wow-delay="0.1s">
+              <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px">
+                <img class="position-absolute w-100 h-100" src="images/why-us.jpg" alt="" style="object-fit: cover"/>
+                <div class="position-absolute top-0 start-0 bg-white pe-3 pb-3" style="width: 200px; height: 200px">
+                  <div class="d-flex flex-column justify-content-center text-center bg-primary h-100 p-3">
+                    <h1 class="text-white">15</h1>
+                    <h2 class="text-white">Years</h2>
+                    <h5 class="text-white mb-0">Experience</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 wow" data-wow-delay="0.5s">
+              <div class="h-100">
+                <div class="border-start border-5 border-primary ps-4 mb-5">
+                    <h6 class="text-body text-uppercase mb-2">Why Choose Us?</h6>
+                    <h1 class="display-6 mb-0">We Offer Unique Products For Industries</h1>
+                </div>
+                <p>Pinnacle Systems is proud of its strong client focus and long-term relationships. Our aim is to work with our clients, embracing their Fleet Management and Security Strategies to produce systems that convey their key messages and values in a diverse and impressive manner.</p>
+                <p class="mb-4">Attention to detail and quality of work, paired with years of industry experience, make us the perfect choice to partner with to produce outstanding systems.</p>
+                <div class="border-top mt-4 pt-4">
+                  <div class="row g-4">
+                    <div class="col-sm-4 d-flex wow" data-wow-delay="0.1s">
+                      <i class="fa fa-check text-primary flex-shrink-0 me-3"></i>
+                      <h6 class="mb-0">Ontime At Services</h6>
+                    </div>
+                    <div class="col-sm-4 d-flex wow" data-wow-delay="0.3s">
+                      <i class="fa fa-check text-primary flex-shrink-0 me-3"></i>
+                      <h6 class="mb-0">24/7 Hour Services</h6>
+                    </div>
+                    <div class="col-sm-4 d-flex wow" data-wow-delay="0.5s">
+                      <i class="fa fa-check text-primary flex-shrink-0 me-3"></i>
+                      <h6 class="mb-0">Quality Products</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- About End -->
+
+    <!------Trusted By Great Teams------->
+    <div class="container19">
+        <div class="row teams">
+            <div class="col-md-12">
+                <h3 class="clientele-line">Our Clientele</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="clientele">
+        <div class="row27">
+            <div class="client-col">
+                <img src="images/isuzu.png" style="margin-top: 20px;">
+            </div>
+            <div class="client-col">
+                <img src="images/g4s.png" style="margin-top: 10px;">
+            </div>
+            <div class="client-col">
+                <img src="images/cocacola.png" style="margin-top: 20px;">
+            </div>
+            <div class="client-col">
+                <img src="images/guardian1.png" style="margin-top: 30px;">
+            </div>
+            <div class="client-col">
+                <img src="images/acceler.png" style="margin-top: 30px;">
+            </div>
+            <div class="client-col">
+                <img class="kca" src="images/kca.png" style="width: 100px; margin: 0 0 0 50px;">
+            </div>
+        </div>
+
+        <div class="row27 second-row">
+            <div class="client-col">
+                <img src="images/muthokinju.png" style="margin-top: -10px;">
+            </div>
+            <div class="client-col">
+                <img src="images/naivas.png" style="margin-top: 30px;">
+            </div>
+            <div class="client-col">
+                <img src="images/rusinga.png" style="margin-top: 40px;">
+            </div>
+            <div class="client-col">
+                <img src="images/apollo.png" style="margin-top: 30px;">
+            </div>
+            <div class="client-col">
+                <img src="images/scania.png" style="margin-top: -10px;">
+            </div>
+            <div class="client-col">
+                <img src="images/pembe.png" style="margin: 0 0 0 30px;">
+            </div>
+        </div>
+    </div>
+
+    <!-----Services----->
+    <div class="container21">
+        <div class="services-content">
+            <h1 class="services-line">We Serve Industries Such As</h1>
+            <div class="ind-categories">
+                <div class="ind-categories-col">
+                    <div class="ind-icon">
+                        <img src="images/vehicle.png"><br>
+                    </div>
+                    <h3>Fleet Management</h3>
+                    <p>We specialize in installing and maintaining digital speed limiters embedded with a GPS tracking system in line with the NTSA regulations.</p>
+                </div>
+
+                <div class="ind-categories-col">
+                    <div class="ind-icon">
+                        <img src="images/security.png"><br>
+                    </div>
+                    <h3>Security Sector</h3>
+                    <p>We provide our clients with high-tech security systems, particularly CCTV and biometrics systems that relay real-time data and support server storage.</p>
+                </div>
+
+                <div class="ind-categories-col">
+                    <div class="ind-icon">
+                        <img src="images/vest2.png"><br>
+                    </div>
+                    <h3>Reflective Materials</h3>
+                    <p>In partnership with Xiamen REFLECTOP Ltd, we sell high-quality reflective materials ranging from vehicle conspicuity marking to traffic and personal safety.</p>
+                </div>
+
+                <div class="ind-categories-col">
+                    <div class="ind-icon">
+                        <img src="images/traffic-cone.png"><br>
+                    </div>
+                    <h3>Road Safety</h3>
+                    <p>Our road safety solutions range from Securon seat belts to powder fire extinguishers and first aid kits that ensure the safety of motorists and pedestrians.</p>
+                </div>
+
+                <div class="ind-button">
+                    <a href="industries.html"><button type="button" class="button1">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------Our Accreditations------->
+    <div class="container23">
+        <div class="container23-intro-text">
+            <h1 class="accred-line">Regulatory Organizations</h1>
+            <p>We are fully accredited and certified to carry out our operations.</p>
+        </div>
+        
+        <div class="accred-content">
+            <div class="accred-col">
+                <h2>Our Accreditations</h2>
+                <p>We are certified by the following statutory bodies</p>
+                <div class="accred-logo-cont">
+                    <div class="accreditation-logo">
+                        <img src="images/bureau.png">
+                    </div>
+                    <div class="accreditation-logo">
+                        <img src="images/ntsa.png">
+                    </div>
+                    <div class="accreditation-logo">
+                        <img src="images/kebs3.png">
+                    </div>
+                    <div class="accreditation-logo">
+                        <img src="images/cak.png">
+                    </div>
+                    <div class="accreditation-logo">
+                        <img src="images/kenas2.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="accred-col">
+                <h2>Our Memberships</h2>
+                <p>We are proud members of the following organizations</p>
+                <div class="accred-logo-cont memberships">
+                    <div class="accreditation-logo">
+                        <img src="images/apma.png">
+                    </div>
+                    <div class="accreditation-logo">
+                        <img src="images/kam.png">
+                    </div>
+                    <div class="accreditation-logo">
+                        <img src="images/kncci.png">
+                    </div>
+                    <div class="accreditation-logo">
+                        <img src="images/piea.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Appointment Start -->
+    <div class="container-fluid appointment py-5 wow" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-5 col-md-6 wow" data-wow-delay="0.3s">
+            <div class="border-start border-5 border-primary ps-4 mb-5">
+              <h6 class="text-white text-uppercase mb-2">Appointment</h6>
+              <h1 class="display-6 text-white mb-0">Schedule An Appointment With Us Today</h1>
+            </div>
+            <p class="text-white mb-0">If you wish to book an appointment, kindly fill in the form and we will get back to you within 24 Hours. Alternatively, you can give us a call on 0733 375799 or 020 2010432.</p>
+          </div>
+          <div class="col-lg-7 col-md-6 wow" data-wow-delay="0.5s">
+            <form action="https://formsubmit.co/f15469c9a8b295607a90bd73c41354f5" method="POST">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control bg-dark border-0" id="gname" placeholder="Gurdian Name" required/>
+                    <label for="gname">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control bg-dark border-0" id="gmail" placeholder="Gurdian Email" required/>
+                    <label for="gmail">Your Email</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control bg-dark border-0" id="cname" placeholder="Child Name" required/>
+                    <label for="cname">Your Mobile</label>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control bg-dark border-0" id="cage" placeholder="Child Age" required/>
+                    <label for="cage">Service Type</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control bg-dark border-0" placeholder="Leave a message here" id="message" style="height: 100px" required></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary w-100 py-3" type="submit">Get Appointment</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Appointment End -->
+
+    <!-----Recent Posts---->
+    <div class="recent-posts-container">
+        <h1 class="recent-line">Recent Events</h1>
+        <div class="recent-posts-content">
+            <div class="recent-card">
+                <div class="recent-image">
+                    <div class="date-container">
+                        <p class="date">19</p>
+                        <p class="month">JUNE</p>
+                        <p class="year">2022</p>
+                    </div>
+                    <img src="images/fathers-day.jpg" alt="">
+                    
+                </div>
+                <div class="recent-info">
+                    <h2>Fathers' Day</h2>
+                    <p>We celebrate and honor the men who have embraced the essential role of fatherhood.</p>
+                    <p>We also thank fathers and father figures for the sacrifices they make, for embracing the responsibility of nurturing and raising children. </p>
+                </div>
+            </div>
+
+            <div class="recent-card">
+                <div class="recent-image">
+                    <div class="date-container">
+                        <p class="date">08</p>
+                        <p class="month">MAR</p>
+                        <p class="year">2022</p>
+                    </div>
+                    <img src="images/womens-day.jpg" alt="">
+                    
+                </div>
+                <div class="recent-info">
+                    <h2>Women's Day</h2>
+                    <p>A global day celebrating the social, economic, cultural, and political achievements of women.</p>
+                    <p>The day also marks a call to action for accelerating women's equality. We continue to fight for womens rights in every sector.</p>
+                </div>
+            </div>
+
+            <div class="recent-card">
+                <div class="recent-image">
+                    <div class="date-container">
+                        <p class="date">18</p>
+                        <p class="month">DEC</p>
+                        <p class="year">2021</p>
+                    </div>
+                    <img src="images/charity.jpg" alt="">
+                    
+                </div>
+                <div class="recent-info">
+                    <h2>Makindu Charity Donation</h2>
+                    <p>The event was organized and planned by the Charities of Mercy in partnership with Pinnacle Systems Ltd.</p>
+                    <p>As it was a festive season, the objective of this event was to share food with over 700 vulnerable families from different communities within Makueni county.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-------Footer------>
+    <div class="footer">
+        <div class="container1">
+            <div class="row1">
+                <div class="footer-col">
+                    <a href="#"><img src="images/logo2.png" class="footer-logo"></a><br>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Useful Links</h5>
+                        <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="http://pinnaclesystemskenya.net/gps/">Tracking Platform</a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-col footer-text">
+                    <h5>Office hours</h5>
+                    <p>Monday - Friday: 8:00am - 5:00pm</p>
+                    <p>Saturday: 8:00am - 1:00pm</p>
+                    <p>Sunday: Closed</p>
+                </div>
+
+                <div class="footer-col footer-text">
+                    <h5>Get In Touch</h5>
+                    <p><img class="icon" src="images/loc.png">Lunga Lunga Road - Industrial Area</p>
+                    <p><img class="icon" src="images/address.png">P.O. BOX 9596 - 00100 Nairobi, Kenya</p>
+                    <p><img class="icon" src="images/tel.png">0733 375 799 / 020 2010432</p>
+                    <p><img class="icon" src="images/email.png">info@pinnaclesystemskenya.net</p>
+                </div>
+            </div>
+
+            <div class="links">
+                <hr>
+                <p style="color: #fff; opacity: 50%;"><span>&copy</span> 2022 Pinnacle Systems Ltd. All Rights Reserved</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <a href="#" class="scroll-top"><span class="material-symbols-outlined scroll-icon arrow-up">keyboard_arrow_up</span></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      /*For The Responsive Navigation Menu*/
+        const navMenu = document.getElementById('nav-menu'),
+        toggleMenu = document.getElementById('toggle-menu'),
+        closeMenu = document.getElementById('close-menu')
+        menuOverlay = document.getElementById('menu-overlay')
+
+        toggleMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('show-menu')
+            menuOverlay.classList.toggle('active')
+        })
+
+        closeMenu.addEventListener('click', () => {
+            navMenu.classList.remove('show-menu')
+            menuOverlay.classList.remove('active')
+        })
+
+        /*For the Overlay when the side menu opens*/
+        menuOverlay.addEventListener('click', () => {
+            navMenu.classList.remove('show-menu')
+            menuOverlay.classList.remove('active')
+        })
+
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-link')) {
+                var dropdowns = document.getElementsByClassName("megamenu");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+                }
+            }
+        }
+
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunctionInd() {
+            document.getElementById("mydropdown-ind").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown-link')) {
+                var dropdowns = document.getElementsByClassName("megamenu");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+                }
+            }
+        }
+
+        $(".dropdown-link").click(function(event){
+            event.preventDefault();
+        });
+
+
+        /*For The Slideshow*/
+        var slideshowDuration = 3000;
+        var slideshow=$('.main-content .slideshow');
+
+        function slideshowSwitch(slideshow,index,auto){
+        if(slideshow.data('wait')) return;
+
+        var slides = slideshow.find('.slide');
+        var pages = slideshow.find('.pagination');
+        var activeSlide = slides.filter('.is-active');
+        var activeSlideImage = activeSlide.find('.image-container');
+        var newSlide = slides.eq(index);
+        var newSlideImage = newSlide.find('.image-container');
+        var newSlideContent = newSlide.find('.slide-content');
+        var newSlideElements=newSlide.find('.caption > *');
+        if(newSlide.is(activeSlide))return;
+
+        newSlide.addClass('is-new');
+        var timeout=slideshow.data('timeout');
+        clearTimeout(timeout);
+        slideshow.data('wait',true);
+        var transition=slideshow.attr('data-transition');
+        if(transition=='fade'){
+            newSlide.css({
+            display:'block',
+            zIndex:2
+            });
+            newSlideImage.css({
+            opacity:0
+            });
+
+            TweenMax.to(newSlideImage,1,{
+            alpha:1,
+            onComplete:function(){
+                newSlide.addClass('is-active').removeClass('is-new');
+                activeSlide.removeClass('is-active');
+                newSlide.css({display:'',zIndex:''});
+                newSlideImage.css({opacity:''});
+                slideshow.find('.pagination').trigger('check');
+                slideshow.data('wait',false);
+                if(auto){
+                timeout=setTimeout(function(){
+                    slideshowNext(slideshow,false,true);
+                },slideshowDuration);
+                slideshow.data('timeout',timeout);}}});
+        } else {
+            if(newSlide.index()>activeSlide.index()){
+            var newSlideRight=0;
+            var newSlideLeft='auto';
+            var newSlideImageRight=-slideshow.width()/8;
+            var newSlideImageLeft='auto';
+            var newSlideImageToRight=0;
+            var newSlideImageToLeft='auto';
+            var newSlideContentLeft='auto';
+            var newSlideContentRight=0;
+            var activeSlideImageLeft=-slideshow.width()/4;
+            } else {
+            var newSlideRight='';
+            var newSlideLeft=0;
+            var newSlideImageRight='auto';
+            var newSlideImageLeft=-slideshow.width()/8;
+            var newSlideImageToRight='';
+            var newSlideImageToLeft=0;
+            var newSlideContentLeft=0;
+            var newSlideContentRight='auto';
+            var activeSlideImageLeft=slideshow.width()/4;
+            }
+
+            newSlide.css({
+            display:'block',
+            width:0,
+            right:newSlideRight,
+            left:newSlideLeft
+            ,zIndex:2
+            });
+
+            newSlideImage.css({
+            width:slideshow.width(),
+            right:newSlideImageRight,
+            left:newSlideImageLeft
+            });
+
+            newSlideContent.css({
+            width:slideshow.width(),
+            left:newSlideContentLeft,
+            right:newSlideContentRight
+            });
+
+            activeSlideImage.css({
+            left:0
+            });
+
+            TweenMax.set(newSlideElements,{y:20,force3D:true});
+            TweenMax.to(activeSlideImage,1,{
+            left:activeSlideImageLeft,
+            ease:Power3.easeInOut
+            });
+
+            TweenMax.to(newSlide,1,{
+            width:slideshow.width(),
+            ease:Power3.easeInOut
+            });
+
+            TweenMax.to(newSlideImage,1,{
+            right:newSlideImageToRight,
+            left:newSlideImageToLeft,
+            ease:Power3.easeInOut
+            });
+
+            TweenMax.staggerFromTo(newSlideElements,0.8,{alpha:0,y:60},{alpha:1,y:0,ease:Power3.easeOut,force3D:true,delay:0.6},0.1,function(){
+            newSlide.addClass('is-active').removeClass('is-new');
+            activeSlide.removeClass('is-active');
+            newSlide.css({
+                display:'',
+                width:'',
+                left:'',
+                zIndex:''
+            });
+
+            newSlideImage.css({
+                width:'',
+                right:'',
+                left:''
+            });
+
+            newSlideContent.css({
+                width:'',
+                left:''
+            });
+
+            newSlideElements.css({
+                opacity:'',
+                transform:''
+            });
+
+            activeSlideImage.css({
+                left:''
+            });
+
+            slideshow.find('.pagination').trigger('check');
+            slideshow.data('wait',false);
+            if(auto){
+                timeout=setTimeout(function(){
+                slideshowNext(slideshow,false,true);
+                },slideshowDuration);
+                slideshow.data('timeout',timeout);
+            }
+            });
+        }
+        }
+
+        function slideshowNext(slideshow,previous,auto){
+        var slides=slideshow.find('.slide');
+        var activeSlide=slides.filter('.is-active');
+        var newSlide=null;
+        if(previous){
+            newSlide=activeSlide.prev('.slide');
+            if(newSlide.length === 0) {
+            newSlide=slides.last();
+            }
+        } else {
+            newSlide=activeSlide.next('.slide');
+            if(newSlide.length==0)
+            newSlide=slides.filter('.slide').first();
+        }
+
+        slideshowSwitch(slideshow,newSlide.index(),auto);
+        }
+
+        function homeSlideshowParallax(){
+        var scrollTop=$(window).scrollTop();
+        if(scrollTop>windowHeight) return;
+        var inner=slideshow.find('.slideshow-inner');
+        var newHeight=windowHeight-(scrollTop/2);
+        var newTop=scrollTop*0.8;
+
+        inner.css({
+            transform:'translateY('+newTop+'px)',height:newHeight
+        });
+        }
+
+        $(document).ready(function() {
+        $('.slide').addClass('is-loaded');
+
+        $('.slideshow .arrows .arrow').on('click',function(){
+        slideshowNext($(this).closest('.slideshow'),$(this).hasClass('prev'));
+        });
+
+        $('.slideshow .pagination .item').on('click',function(){
+        slideshowSwitch($(this).closest('.slideshow'),$(this).index());
+        });
+
+        $('.slideshow .pagination').on('check',function(){
+        var slideshow=$(this).closest('.slideshow');
+        var pages=$(this).find('.item');
+        var index=slideshow.find('.slides .is-active').index();
+        pages.removeClass('is-active');
+        pages.eq(index).addClass('is-active');
+        });
+
+        /* Lazyloading
+        $('.slideshow').each(function(){
+        var slideshow=$(this);
+        var images=slideshow.find('.image').not('.is-loaded');
+        images.on('loaded',function(){
+            var image=$(this);
+            var slide=image.closest('.slide');
+            slide.addClass('is-loaded');
+        });
+        */
+
+        var timeout=setTimeout(function(){
+        slideshowNext(slideshow,false,true);
+        },slideshowDuration);
+
+        slideshow.data('timeout',timeout);
+        });
+
+        if($('.main-content .slideshow').length > 1) {
+        $(window).on('scroll',homeSlideshowParallax);
+        }
+
+
+        /*For the scroll button*/
+        const scrollTop = document.querySelector(".scroll-top");
+
+        window.addEventListener("scroll", () => {
+            if(window.pageYOffset > 100) {
+                scrollTop.classList.add("active");
+            }
+            else {
+                scrollTop.classList.remove("active");
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,594 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+        <title>Pinnacle Systems Ltd</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"/>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body> 
+    <!--------Navigation Menu-------->
+    <div class="menu-overlay" id="menu-overlay"></div>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo3.png" alt="logo"></a>
+            </div>
+            <div class="toggle-menu" id="toggle-menu">
+                <img src="images/menu.png" alt="logo">
+            </div>
+            <ul class="nav-list" id="nav-menu">
+                <div class="close-menu" id="close-menu">
+                    <img src="images/close.png" alt="logo">
+                </div>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown" onclick="myFunction()">
+                    <a href="#" class="nav-link dropdown-link">Our Products <img src="images/down-arrow.png" class="drop-arrow" alt="arrow"></a>
+
+                    <div id="myDropdown" class="megamenu">
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Road Safety Equipment</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/fire-extinguisher.png">
+                                    <a href="fireext.html">Fire Extinguishers</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/first-aid-kit.png">
+                                    <a href="firstaid.html">First Aid Kits</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/alert.png">
+                                    <a href="lsavers.html">Life Savers</a><p></p>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/seat-belt.png">
+                                    <a href="seatbelt.html">Seat Belts</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Retro-Reflective Materials</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/lines.png">
+                                    <a href="chevrons.html">Chevrons</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/tape.png">
+                                    <a href="reflectors.html">Reflective Tapes</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/vest.png">
+                                    <a href="svests.html">Safety Vests</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/cone.png">
+                                    <a href="cones.html">Traffic Cones</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Fleet Management</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/canvas.png">
+                                    <a href="canvas.html">Canvas Materials</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/speedometer.png">
+                                    <a href="speed.html">Digital Speed Limiter</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/tracking.png">
+                                    <a href="tracking.html">Vehicle Tracking</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Security Systems</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/car.png">
+                                    <a href="alarm.html">Alarm Systems</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/biometrics.png">
+                                    <a href="biometrics.html">Biometric Systems</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/cctv-camera.png">
+                                    <a href="cctv.html">CCTV Systems</a>
+                                </div>
+                            </li>
+
+                            <a href="products.html"><button class="contbtn">View All Products</button></a>
+                        </ul>
+                        
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown" onclick="myFunctionInd()">
+                    <a href="#" class="nav-link dropdown-link">Industries <img src="images/down-arrow.png" class="drop-arrow" alt="arrow"></a>
+                    <div id="mydropdown-ind" class="megamenu">
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/vehicle.png">
+                                    <a href="industries.html">Fleet Management</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/security.png">
+                                    <a href="security.html">Security Sector</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/vest2.png">
+                                    <a href="reflective.html">Reflective Materials</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/traffic-cone.png">
+                                    <a href="roadsafety.html">Road Safety Equipment</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="careers.html" class="nav-link">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faqs.html" class="nav-link active-link">FAQs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+    <div class="small-nav-menu">
+        <a href="index.html">Home / </a>
+        <a href="faqs.html" class="active-page">FAQs</a>
+    </div>
+
+    <!----Questions Intro---->
+    <img src="images/ellipses2.png" class="ellipses1">
+    <div class="container15">
+        <h1 class="line8">Have A <span style="color: #191970;">Question?</span><br>Look Here <span class="material-symbols-outlined arrow-down2">south</span></h1>
+        
+        <!--<div class="search-container">
+            <form>
+                <input type="text" placeholder="Ask A Question..." name="search">
+                <button type="submit" class="search-icon"><img class="search2" src="images/search.png"></button>
+            </form>
+          </div>-->
+    </div>
+    
+    <!----FAQ Questions & Answers---->
+    <div class="container16">
+        <div class="row20">
+            <div class="faq-col1">
+                <button class="btn3 active" data-list="tab1">General</button>
+                <button class="btn3" data-list="tab2">Payments</button>
+                <button class="btn3" data-list="tab3">Location</button>
+                <button class="btn3" data-list="tab4">Products & Services</button>
+            </div>
+            <div class="faq-col2">
+                <div class="accordion">
+                    <!-----General FAQs---->
+                    <div class="content">
+                        <div class="tab-content tab1">
+                            <div class="accordion-item">
+                                <button id="accordion-button-1" aria-expanded="false">
+                                    <span class="accordion-title">How much does it cost to install a speed governor?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We charge Ksh. 35,000 Incl. VAT for the complete installations of Isuzu, Hyundai, Nissan, Toyota and Mitsubishi vehicles. For Mercedes and Scania vehicles, we charge Ksh. 25,000 Incl. VAT.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-2" aria-expanded="false">
+                                    <span class="accordion-title">Do you offer warranty on any of your products?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>The speed limiter components have a one year warranty period from the time of installation. Once the warranty expires, each faulty component is charged accordingly.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-3" aria-expanded="false">
+                                    <span class="accordion-title">How much does it cost to renew a speed governor annually?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>The price depends on the condition of the vehicle at the time of renewal. Kindly contact 0733375799 for further information.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-4" aria-expanded="false">
+                                    <span class="accordion-title">Do you offer tracking services?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>All our online digital speed limiters are equipped with online tracking. In addition, we do offer tracking services at a cost of Ksh. 18, 000 incl. VAT for installation and an annual renewal fee of Ksh. 6,000 incl. VAT.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-5" aria-expanded="false">
+                                    <span class="accordion-title">Can multiple users track the same vehicle(s)?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Multiple users can track the same vehicle(s) but only when the owner of the vehicle(s) has permitted it and has informed us of the same.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-6" aria-expanded="false">
+                                    <span class="accordion-title">What happens if I forget my password?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>In case you have forgotten your password, kindly contact our main office number 0733375799 for assistance as soon as possible.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-----Payments FAQs---->
+                    <div class="content">
+                        <div class="tab-content tab2">
+                            <div class="accordion-item">
+                                <button id="accordion-button-1" aria-expanded="false">
+                                    <span class="accordion-title">Which methods of payment do you accept?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We accept payments made to our Mpesa Buy Goods Till Number, cash and current corporate cheques. However, we do not accept personal cheques.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-2" aria-expanded="false">
+                                    <span class="accordion-title">Do you accept purchase orders?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We accept purchase orders but only upon discussion between the clients and our accounts office.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-3" aria-expanded="false">
+                                    <span class="accordion-title">Do you accept payments made after tax is withheld?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We accept payments made after tax has been withheld but upon discussion with our accounts office and supply of the company's KRA Pin Certificate.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-3" aria-expanded="false">
+                                    <span class="accordion-title">What happens if I delay making payments?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>If any payment is delayed, we will deactivate your vehicle(s) in the system and notify NTSA of the same. In addition, you will be required to return the speed limiter components to the head office.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-----Locations FAQs---->
+                    <div class="content">
+                        <div class="tab-content tab3">
+                            <div class="accordion-item">
+                                <button id="accordion-button-1" aria-expanded="false">
+                                    <span class="accordion-title">Where are you located?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>Our head office is in Industrial Area, along Lunga Lunga Road next to House of Manji.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-2" aria-expanded="false">
+                                    <span class="accordion-title">Do you have any other offices elsewhere?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We have 4 other main branches countrywide located in Mombasa, Kisumu, Eldoret and Nakuru. In addition, we have prescence in Embu, Nyeri, Meru, Kisii, Kericho, Machakos and Thika.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-----Products & Services FAQs---->
+                    <div class="content">
+                        <div class="tab-content tab4">
+                            <div class="accordion-item">
+                                <button id="accordion-button-1" aria-expanded="false">
+                                    <span class="accordion-title">Do you charge any cost for services offered?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We do not charge for any services offered such as consultations and vehicle checking. However, we do charge for installations of faulty parts that are out of warranty at the time when the vehicle is checked.</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-2" aria-expanded="false">
+                                    <span class="accordion-title">Which products do you sell?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We have a variety of products namely: online digital speed limiters and fleet management, tracking, securon seat belts, fire extinguishers, chevrons, reflectors, CCTV systems, biometrics machines, alarm systems, first aid kits and life savers. For more information, visit our Products Page. </p>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button id="accordion-button-3" aria-expanded="false">
+                                    <span class="accordion-title">Which after sale services do you offer for your clients?</span>
+                                    <span class="icon2" aria-hidden="true"></span>
+                                </button>
+                                <div class="accordion-content">
+                                    <p>We offer a number of services such as sending reminders to clients for annual renewals of the speed limiters, servicing of the speed limiters etc. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------Footer------>
+    <div class="footer">
+        <div class="container1">
+            <div class="row1">
+                <div class="footer-col">
+                    <a href="index.html"><img src="images/logo2.png" class="footer-logo"></a><br>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Useful Links</h5>
+                        <ul>
+                            <li><a href="index.html">Homepage</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="http://pinnaclesystemskenya.net/gps/">Tracking</a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-col footer-text">
+                    <h5>Office hours</h5>
+                    <p>Monday - Friday: 8:00am - 5:00pm</p>
+                    <p>Saturday: 8:00am - 1:00pm</p>
+                    <p>Sunday: Closed</p>
+                </div>
+
+                <div class="footer-col footer-text">
+                    <h5>Get In Touch</h5>
+                    <p><img class="icon" src="images/loc.png">Lunga Lunga Road - Industrial Area</p>
+                    <p><img class="icon" src="images/address.png">P.O. BOX 9596 - 00100 Nairobi, Kenya</p>
+                    <p><img class="icon" src="images/tel.png">0733 375 799 / 020 2010432</p>
+                    <p><img class="icon" src="images/email.png">info@pinnaclesystemskenya.net</p>
+                </div>
+            </div>
+
+            <div class="links">
+                <hr>
+                <p style="color: #fff; opacity: 50%;"><span>&copy</span> 2022 Pinnacle Systems Ltd. All Rights Reserved</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <a href="#" class="scroll-top"><span class="material-symbols-outlined arrow-up">keyboard_arrow_up</span></a>
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        /*For The Responsive Navigation Menu*/
+        const navMenu = document.getElementById('nav-menu'),
+            toggleMenu = document.getElementById('toggle-menu'),
+            closeMenu = document.getElementById('close-menu')
+            menuOverlay = document.getElementById('menu-overlay')
+
+            toggleMenu.addEventListener('click', () => {
+                navMenu.classList.toggle('show-menu')
+                menuOverlay.classList.toggle('active')
+            })
+
+            closeMenu.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu')
+                menuOverlay.classList.remove('active')
+            })
+
+            /*For the Overlay when the side menu opens*/
+            menuOverlay.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu')
+                menuOverlay.classList.remove('active')
+            })
+
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropdown-link')) {
+                    var dropdowns = document.getElementsByClassName("megamenu");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunctionInd() {
+                document.getElementById("mydropdown-ind").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropdown-link')) {
+                    var dropdowns = document.getElementsByClassName("megamenu");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                    }
+                }
+            }
+
+            $(".dropdown-link").click(function(event){
+                event.preventDefault();
+            });
+
+        /*For the FAQ Accordion*/
+        const items = document.querySelectorAll('.accordion button');
+
+        function toggleAccordion() {
+            const itemToggle = this.getAttribute('aria-expanded');
+
+            for (i = 0; i < items.length; i++) {
+                items[i].setAttribute('aria-expanded', 'false');
+            }
+
+            if(itemToggle == 'false') {
+                this.setAttribute('aria-expanded', 'true');
+            }
+        }
+
+        items.forEach((item) => item.addEventListener('click', toggleAccordion));
+
+        
+        /*For the FAQ Navigation Buttons*/
+        $(document).ready(function(){
+
+            $(".content .tab-content").hide();
+            $(".content .tab1:first-child").show();
+
+            $(".btn3").click(function(){
+                $(".btn3").removeClass("active");
+                $(this).addClass("active");
+
+                var current_tab_value = $(this).attr("data-list");
+                $(".content .tab-content").hide();
+                $("."+current_tab_value).show();
+            });
+        });
+
+        /*For the scroll button*/
+        const scrollTop = document.querySelector(".scroll-top");
+
+        window.addEventListener("scroll", () => {
+            if(window.pageYOffset > 100) {
+                scrollTop.classList.add("active");
+            }
+            else {
+                scrollTop.classList.remove("active");
+            }
+        })
+    </script>
+
+    </body>
+</html>

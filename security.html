@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Pinnacle Systems Ltd</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"/>
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!--------Navigation Menu-------->
+    <div class="menu-overlay" id="menu-overlay"></div>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo3.png" alt="logo"></a>
+            </div>
+            <div class="toggle-menu" id="toggle-menu">
+                <img src="images/menu.png" alt="logo">
+            </div>
+            <ul class="nav-list" id="nav-menu">
+                <div class="close-menu" id="close-menu">
+                    <img src="images/close.png" alt="logo">
+                </div>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown" onclick="myFunction()">
+                    <a href="#" class="nav-link dropdown-link">Our Products <img src="images/down-arrow.png" class="drop-arrow" alt="arrow"></a>
+
+                    <div id="myDropdown" class="megamenu">
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Road Safety Equipment</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/fire-extinguisher.png">
+                                    <a href="fireext.html">Fire Extinguishers</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/first-aid-kit.png">
+                                    <a href="firstaid.html">First Aid Kits</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/alert.png">
+                                    <a href="lsavers.html">Life Savers</a><p></p>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/seat-belt.png">
+                                    <a href="seatbelt.html">Seat Belts</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Retro-Reflective Materials</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/lines.png">
+                                    <a href="chevrons.html">Chevrons</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/tape.png">
+                                    <a href="reflectors.html">Reflective Tapes</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/vest.png">
+                                    <a href="svests.html">Safety Vests</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/cone.png">
+                                    <a href="cones.html">Traffic Cones</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Fleet Management</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/canvas.png">
+                                    <a href="canvas.html">Canvas Materials</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/speedometer.png">
+                                    <a href="speed.html">Digital Speed Limiter</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/tracking.png">
+                                    <a href="tracking.html">Vehicle Tracking</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"><h3>Security Systems</h3></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/car.png">
+                                    <a href="alarm.html">Alarm Systems</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/biometrics.png">
+                                    <a href="biometrics.html">Biometric Systems</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/cctv-camera.png">
+                                    <a href="cctv.html">CCTV Systems</a>
+                                </div>
+                            </li>
+
+                            <a href="products.html"><button class="contbtn">View All Products</button></a>
+                        </ul>
+                        
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown" onclick="myFunctionInd()">
+                    <a href="#" class="nav-link dropdown-link active-link">Industries <img src="images/down-arrow.png" class="drop-arrow" alt="arrow"></a>
+                    <div id="mydropdown-ind" class="megamenu">
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/vehicle.png">
+                                    <a href="industries.html">Fleet Management</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/security.png">
+                                    <a href="security.html">Security Sector</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/vest2.png">
+                                    <a href="reflective.html">Reflective Materials</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="content">
+                            <li class="megamenu-item header-megamenu"></li>
+                            <li class="megamenu-item">
+                                <div class="megamenu-link">
+                                    <img class="pdt-icon" src="images/traffic-cone.png">
+                                    <a href="roadsafety.html">Road Safety Equipment</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="careers.html" class="nav-link">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faqs.html" class="nav-link">FAQs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+    <div class="small-nav-menu">
+        <a href="index.html">Home / </a>
+        <a href="industries.html">Industries / </a>
+        <a href="security.html" class="active-page">Security Sector</a>
+    </div>
+
+    <div class="automotive-container">
+        <h1 class="line8">Security Sector</h1>
+        <p>It refers to a means or method by which something is secured through a system of interworking components and devices. Security systems differ from each other in terms of purpose, type and the device used to give a certain level of protection.</p>
+
+        <p>Purchasing a security solution is not just a one-off acquisition but rather a significant long term investment where relationships need to be built. By choosing an integrated building security system you have peace of mind that your expectations will be met and we will continue to understand and react to your needs throughout the lifetime of the system.</p>
+
+        <p>This includes three main categories: </p>
+
+        <h4>a) Alarm Systems</h4>
+        <p>A car alarm is an electronic device installed in a vehicle in an attempt to discourage theft of the vehicle itself, its contents, or both. Car alarms work by emitting high-volume sound (often a vehicle-mounted siren, klaxon, pre-recorded verbal warning, the vehicle's own horn, or a combination of these) when the conditions necessary for triggering it are met.</p><br>
+
+        <h4>b) Biometric Systems</h4>
+        <p>These are systems that provide a form of identification and access control within an organization. They employ the use of biometric identifiers which are the distinctive and measurable characteristics used to label and describe individuals.</p> <br>
+
+        <h4>c) CCTV Systems</h4>
+        <p>They involve a network of cameras with a central recording hub to provide security from intruders and can be used in either residential, commercial or industrial settings.</p>
+
+        <h1 class="line8">Featured Products</h1>
+    </div>
+
+    <div class="card-container">
+        <div class="card-content">
+            <div class="prod-card">
+                <div class="card-image">
+                    <img src="images/alarm.jpg" alt="">
+                </div>
+                <div class="card-info">
+                    <h1>Alarm Systems</h1>
+                    <p>Category: Security Systems</p>
+                    <a href="alarm.html"><button>View Product</button></a>
+                </div>
+            </div>
+
+            <div class="prod-card">
+                <div class="card-image">
+                    <img src="images/biometrics.jpg" alt="">
+                </div>
+                <div class="card-info">
+                    <h1>Biometric Systems</h1>
+                    <p>Category: Security Systems</p>
+                    <a href="biometrics.html"><button>View Product</button></a>
+                </div>
+            </div>
+
+            <div class="prod-card">
+                <div class="card-image">
+                    <img src="images/cctv.jpg" alt="">
+                </div>
+                <div class="card-info">
+                    <h1>CCTV Systems</h1>
+                    <p>Category: Security Solutions</p>
+                    <a href="cctv.html"><button>View Product</button></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-------Footer------>
+    <div class="footer">
+        <div class="container1">
+            <div class="row1">
+                <div class="footer-col">
+                    <a href="#"><img src="images/logo2.png" class="footer-logo"></a><br>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Useful Links</h5>
+                        <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="http://pinnaclesystemskenya.net/gps/">Tracking Platform</a></li>
+                        </ul>
+                </div>
+
+                <div class="footer-col footer-text">
+                    <h5>Office hours</h5>
+                    <p>Monday - Friday: 8:00am - 5:00pm</p>
+                    <p>Saturday: 8:00am - 1:00pm</p>
+                    <p>Sunday: Closed</p>
+                </div>
+
+                <div class="footer-col footer-text">
+                    <h5>Get In Touch</h5>
+                    <p><img class="icon" src="images/loc.png">Lunga Lunga Road - Industrial Area</p>
+                    <p><img class="icon" src="images/address.png">P.O. BOX 9596 - 00100 Nairobi, Kenya</p>
+                    <p><img class="icon" src="images/tel.png">0733 375 799 / 020 2010432</p>
+                    <p><img class="icon" src="images/email.png">info@pinnaclesystemskenya.net</p>
+                </div>
+            </div>
+
+            <div class="links">
+                <hr>
+                <p style="color: #fff; opacity: 50%;"><span>&copy</span> 2022 Pinnacle Systems Ltd. All Rights Reserved</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <a href="#" class="scroll-top"><span class="material-symbols-outlined scroll-icon arrow-up">keyboard_arrow_up</span></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        /*For The Responsive Navigation Menu*/
+        const navMenu = document.getElementById('nav-menu'),
+            toggleMenu = document.getElementById('toggle-menu'),
+            closeMenu = document.getElementById('close-menu')
+            menuOverlay = document.getElementById('menu-overlay')
+
+            toggleMenu.addEventListener('click', () => {
+                navMenu.classList.toggle('show-menu')
+                menuOverlay.classList.toggle('active')
+            })
+
+            closeMenu.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu')
+                menuOverlay.classList.remove('active')
+            })
+
+            /*For the Overlay when the side menu opens*/
+            menuOverlay.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu')
+                menuOverlay.classList.remove('active')
+            })
+
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropdown-link')) {
+                    var dropdowns = document.getElementsByClassName("megamenu");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunctionInd() {
+                document.getElementById("mydropdown-ind").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropdown-link')) {
+                    var dropdowns = document.getElementsByClassName("megamenu");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                    }
+                }
+            }
+
+            $(".dropdown-link").click(function(event){
+                event.preventDefault();
+            });
+
+        /*For the scroll button*/
+        const scrollTop = document.querySelector(".scroll-top");
+
+        window.addEventListener("scroll", () => {
+            if(window.pageYOffset > 100) {
+                scrollTop.classList.add("active");
+            }
+            else {
+                scrollTop.classList.remove("active");
+            }
+        })
+    </script>
+    </body>
+</html>
