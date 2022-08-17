@@ -36,6 +36,7 @@ header {
     width: 100%;
     background-color: #fff;
     z-index: 10000;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 nav {
@@ -6609,7 +6610,7 @@ nav {
 }
 
 .small-nav-menu {
-    margin: 140px 300px 0;
+    margin: 150px 300px 0;
 }
 
 .small-nav-menu a {
