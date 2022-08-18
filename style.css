@@ -36,6 +36,7 @@ header {
     width: 100%;
     background-color: #fff;
     z-index: 10000;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 nav {
@@ -51,7 +52,7 @@ nav {
 }
 
 .logo img {
-    width: 40%;
+    width: 130px;
 }
 
 .toggle-menu img,
@@ -942,7 +943,7 @@ nav {
     background-image: url("images/services.jpg");
     min-height: 600px; 
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
@@ -6609,7 +6610,7 @@ nav {
 }
 
 .small-nav-menu {
-    margin: 140px 300px 0;
+    margin: 150px 300px 0;
 }
 
 .small-nav-menu a {
@@ -6759,13 +6760,13 @@ nav {
     background-color: #fff;
 }
 
-hr {
-    width: 100%;
-    color: #000;
-    background-color: #fff;
-    height: 1px;
-    border-width: 0;
-    margin-top: 10px;
+.page-cont-hr {
+    width: 100% !important;
+    color: #000 !important;
+    background-color: #000 !important;
+    height: 1px !important;
+    border-width: 0 !;
+    margin-top: 10px !important;
 }
 
 .pagination1 {
@@ -7064,8 +7065,8 @@ hr {
 }
 
 .prod-img {
-    height: 500px !important;
-    object-fit: contain;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 /*For screens with a max-width of 1899px and min-width of 1600px*/
@@ -8632,7 +8633,7 @@ hr {
     }
     
     .small-nav-menu {
-        margin: 130px 35px 0;
+        margin: 150px 35px 0;
     }
     
     .container8 {
@@ -8877,7 +8878,8 @@ hr {
     }
     
     .small-nav-menu {
-        margin: 130px 30px 0;
+        margin: 140px 30px 0;
+        padding: 20px 0 0;
     }
 
     .small-nav-menu a {
@@ -9136,7 +9138,7 @@ hr {
 }
 
 .container20 {
-    background-image: url("images/career2.png");
+    background-image: url("images/career3.jpg");
     height: 60vh; 
     background-attachment: fixed;
     background-position: center;
@@ -11986,6 +11988,11 @@ hr {
 .faq-col2 {
     width: 70%;
     margin-top: 20px;
+}
+
+.accordion .content {
+    border: none !important;
+    border-right: none !important;
 }
 
 .accordion-item h3 {
