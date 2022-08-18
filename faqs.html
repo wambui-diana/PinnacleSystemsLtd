@@ -45,7 +45,7 @@
 
                     <div id="myDropdown" class="megamenu">
                         <ul class="content">
-                            <li class="megamenu-item header-megamenu"><h3>Road Safety Equipment</h3></li>
+                            <a href="roadsafety.html"><li class="megamenu-item header-megamenu"><h3>Road Safety Equipment</h3></li></a>
                             <li class="megamenu-item">
                                 <div class="megamenu-link">
                                     <img class="pdt-icon" src="images/fire-extinguisher.png">
@@ -77,7 +77,7 @@
                         </ul>
 
                         <ul class="content">
-                            <li class="megamenu-item header-megamenu"><h3>Retro-Reflective Materials</h3></li>
+                            <a href="reflective.html"><li class="megamenu-item header-megamenu"><h3>Retro-Reflective Materials</h3></li></a>
                             <li class="megamenu-item">
                                 <div class="megamenu-link">
                                     <img class="pdt-icon" src="images/lines.png">
@@ -109,7 +109,7 @@
                         </ul>
 
                         <ul class="content">
-                            <li class="megamenu-item header-megamenu"><h3>Fleet Management</h3></li>
+                            <a href="industries.html"><li class="megamenu-item header-megamenu"><h3>Fleet Management</h3></li></a>
                             <li class="megamenu-item">
                                 <div class="megamenu-link">
                                     <img class="pdt-icon" src="images/canvas.png">
@@ -134,7 +134,7 @@
                         </ul>
 
                         <ul class="content">
-                            <li class="megamenu-item header-megamenu"><h3>Security Systems</h3></li>
+                            <a href="security.html"><li class="megamenu-item header-megamenu"><h3>Security Systems</h3></li></a>
                             <li class="megamenu-item">
                                 <div class="megamenu-link">
                                     <img class="pdt-icon" src="images/car.png">
@@ -538,6 +538,13 @@
                     }
                 }
             }
+
+            $(document).ready(function() {
+                $('.dropdown').click(function() {
+                    $('.show').removeClass('show');
+                    $(this).children('.megamenu').addClass('show');
+                });
+            });
 
             $(".dropdown-link").click(function(event){
                 event.preventDefault();
