@@ -11989,6 +11989,11 @@ hr {
     margin-top: 20px;
 }
 
+.accordion .content {
+    border: none !important;
+    border-right: none !important;
+}
+
 .accordion-item h3 {
     color:#191970;
     font-family: 'Martel', sans-serif;
