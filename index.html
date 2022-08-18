@@ -774,6 +774,13 @@
                 }
             }
         }
+        
+        $(document).ready(function() {
+            $('.dropdown').click(function() {
+                $('.show').removeClass('show');
+                $(this).children('.megamenu').addClass('show');
+            });
+        });
 
         $(".dropdown-link").click(function(event){
             event.preventDefault();
