@@ -11093,6 +11093,7 @@ nav {
         width: auto;
         height: 50%;
         box-sizing: border-box;
+        background-image: linear-gradient(to right, #000046, #1CB5E0);
     }
 
     .career-info {
@@ -11360,6 +11361,7 @@ nav {
         width: auto;
         height: 50%;
         box-sizing: border-box;
+        background-image: linear-gradient(to right, #000046, #1CB5E0);
     }
 
     .career-info {
@@ -11630,8 +11632,15 @@ nav {
 
 /*For screens with a max-width of 399px and min-width of 280px*/
 @media(max-width: 399px) and (min-width: 280px) {
+    .container20 {
+        position: relative;
+        width: auto;
+        height: 50%;
+        box-sizing: border-box;
+        background-image: linear-gradient(to right, #000046, #1CB5E0);
+    }
     .career-info {
-        padding: 100px 0;
+        padding: 130px 0;
     }
 
     .career-info h1 {
