@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 1s ease;
+    transition: 1s ease-in-out linear;
 }
 
 #preloader img {
@@ -306,6 +306,10 @@ nav {
     .ind-content {
         margin-top: 30px;
     }
+
+    #preloader img {
+        width: 20%;
+    }
 }
 
 /*For screens with a max-width of 1599px and min-width of 1400px*/
@@ -324,6 +328,10 @@ nav {
     
     .ind-content {
         margin-top: 30px;
+    }
+
+    #preloader img {
+        width: 20%;
     }
 }
 
@@ -344,6 +352,10 @@ nav {
     
     .ind-content {
         margin-top: 30px;
+    }
+
+    #preloader img {
+        width: 20%;
     }
 }
 
@@ -385,6 +397,10 @@ nav {
     .logo img {
         width: 40%;
         margin-left: 40px;
+    }
+
+    #preloader img {
+        width: 20%;
     }
 }
 
@@ -433,6 +449,10 @@ nav {
         justify-content: start;
         flex-wrap: wrap;
     }
+
+    #preloader img {
+        width: 20%;
+    }
 }
 
 @media Screen and (max-width: 1000px) {
@@ -444,6 +464,10 @@ nav {
 
 /*For screens with a max-width of 999px and min-width of 350px*/
 @media(max-width: 999px) and (min-width: 350px) {
+    #preloader img {
+        width: 50%;
+    }
+
     .megamenu {
         flex-direction: column;
         position: static;
@@ -598,6 +622,10 @@ nav {
 
 /*For screens with a max-width of 349px and min-width of 280px*/
 @media(max-width: 349px) and (min-width: 280px) {
+    #preloader img {
+        width: 100%;
+    }
+
     .megamenu {
         flex-direction: column;
         position: static;
@@ -725,7 +753,8 @@ nav {
     }
 
     .logo img {
-        width: 50%;
+        width: 60%;
+        margin-top: -20px;
     }
 
     .content:nth-child(1) {
