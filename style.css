@@ -252,10 +252,104 @@ nav {
     opacity: 1;
 }
 
+.ind-title {
+    position: absolute;
+    margin: 50px 0 !important;
+    top: 0;
+    left: 20%;
+}
+
+.ind-title h3 {
+    font-weight: 400;
+    color: #004e92;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.ind-content {
+    margin-top: 80px;
+}
+
+/*For screens with a max-width of 1899px and min-width of 1600px*/
+@media(max-width: 1899px) and (min-width: 1600px) {
+    .ind-title {
+        position: absolute;
+        margin: 20px 0 !important;
+        top: 0;
+        left: 15%;
+    }
+    
+    .ind-title h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    
+    .ind-content {
+        margin-top: 30px;
+    }
+}
+
+/*For screens with a max-width of 1599px and min-width of 1400px*/
+@media(max-width: 1599px) and (min-width: 1400px) {
+    .ind-title {
+        position: absolute;
+        margin: 20px 0 !important;
+        top: 0;
+        left: 10%;
+    }
+    
+    .ind-title h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    
+    .ind-content {
+        margin-top: 30px;
+    }
+}
+
+
+/*For screens with a max-width of 1399px and min-width of 1281px*/
+@media(max-width: 1399px) and (min-width: 1281px) {
+    .ind-title {
+        position: absolute;
+        margin: 20px 0 !important;
+        top: 0;
+        left: 5%;
+    }
+    
+    .ind-title h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    
+    .ind-content {
+        margin-top: 30px;
+    }
+}
+
 /*For screens with a max-width of 1280px and min-width of 1091px*/
 @media(max-width: 1280px) and (min-width: 1091px) {
     nav {
         width: 100%;
+    }
+
+    .ind-title {
+        position: absolute;
+        margin: 20px 0 !important;
+        top: 0;
+        left: 5%;
+    }
+    
+    .ind-title h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    
+    .ind-content {
+        margin-top: 30px;
     }
 
     .nav-list {
@@ -281,6 +375,22 @@ nav {
 @media(max-width: 1090px) and (min-width: 1000px) {
     nav {
         width: 100%;
+    }
+
+    .ind-title {
+        position: absolute;
+        margin: 20px 0 !important;
+        top: 0;
+        left: 5%;
+    }
+    
+    .ind-title h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    
+    .ind-content {
+        margin-top: 30px;
     }
 
     .nav-list {
@@ -336,6 +446,22 @@ nav {
 
     .content {
         padding: 0;
+    }
+
+    .ind-title {
+        position: relative;
+        margin: 20px 0 10px !important;
+        top: 0;
+        left: 0%;
+    }
+    
+    .ind-title h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    
+    .ind-content {
+        margin-top: 0px;
     }
 
     .dropdown:hover .megamenu {
@@ -474,6 +600,22 @@ nav {
 
     .content {
         padding: 0;
+    }
+
+    .ind-title {
+        position: relative;
+        margin: 20px 0 10px !important;
+        top: 0;
+        left: 0%;
+    }
+    
+    .ind-title h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    
+    .ind-content {
+        margin-top: 0px;
     }
 
     .dropdown:hover .megamenu {
