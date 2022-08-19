@@ -31,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 1s ease-in-out linear;
+    transition: 0.3s linear;
 }
 
 #preloader img {
@@ -160,11 +160,18 @@ nav {
     display: flex;
     align-items: center;
     margin: 0 10px 16px;
+    padding: 10px 20px;
+    background-color: #fff;
 }
 
 .megamenu-link {
     display: flex;
     align-items: center;
+}
+
+.header-megamenu {
+    background-color: #F5F5F5;
+    padding: 0;
 }
 
 .megamenu-link a {
@@ -481,6 +488,18 @@ nav {
         display: block !important;
     }
 
+    .megamenu-item {
+        margin: 0 10px 16px;
+        padding: 10px 20px;
+        background-color: #fff;
+        width: 250px;
+    }
+
+    .header-megamenu {
+        background-color: #F5F5F5;
+        padding: 0;
+    }
+
     nav {
         padding: 0 16px;
     }
@@ -637,6 +656,18 @@ nav {
         overflow: hidden;
         padding: 0;
         border: none !important;
+    }
+
+    .megamenu-item {
+        margin: 0 10px 16px;
+        padding: 10px 20px;
+        background-color: #fff;
+        width: 200px;
+    }
+
+    .header-megamenu {
+        background-color: #F5F5F5;
+        padding: 0;
     }
 
     nav {
