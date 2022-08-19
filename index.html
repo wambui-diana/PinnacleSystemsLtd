@@ -777,9 +777,14 @@
 
         $(document).ready(function() {
             $('.dropdown').click(function() {
+                $(".megamenu").toggle();
                 $('.show').removeClass('show');
                 $(this).children('.megamenu').addClass('show');
             });
+        });
+
+        $(".dropdown-link").click(function(event){
+            event.preventDefault();
         });
 
         /*For The Slideshow*/
