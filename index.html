@@ -29,6 +29,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div id="preloader"></div>
     <!--------Navigation Menu-------->
     <div class="menu-overlay" id="menu-overlay"></div>
     <header>
@@ -716,6 +717,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function() {
+            loader.style.display = "none";
+        })
+
+
+
       /*For The Responsive Navigation Menu*/
         const navMenu = document.getElementById('nav-menu'),
         toggleMenu = document.getElementById('toggle-menu'),
