@@ -4650,6 +4650,11 @@ nav {
 .footer-logo {
     margin-top: 40px;
     cursor: pointer;
+    width: 45%;
+}
+
+.footer-logo img {
+    width: 100%;
 }
 
 .footer-col h5 {
@@ -4828,7 +4833,7 @@ nav {
 /*For screens with a max-width of 1399px and min-width of 1281px*/
 @media(max-width: 1399px) and (min-width: 1281px) {
     .container1 {
-        margin: 100px 80px 0;
+        margin: 100px 40px 0;
         width: auto;
     }
 
@@ -4858,6 +4863,7 @@ nav {
 
     .footer-logo {
         margin-top: 40px;
+        width: 60%;
     }
 
     .footer-logo img {
@@ -4877,7 +4883,7 @@ nav {
 /*For screens with a max-width of 1280px and min-width of 1150px*/
 @media(max-width: 1280px) and (min-width: 1150px) {
     .container1 {
-        margin: 100px 80px 0;
+        margin: 100px 0px 0 20px;
         width: auto;
     }
 
@@ -4907,6 +4913,7 @@ nav {
 
     .footer-logo {
         margin-top: 40px;
+        width: 60%;
     }
 
     .footer-logo img {
@@ -4958,6 +4965,7 @@ nav {
 
     .footer-logo {
         margin-top: 40px;
+        width: 50%;
     }
 
     .footer-logo img {
@@ -5009,6 +5017,7 @@ nav {
 
     .footer-logo {
         margin-top: 40px;
+        width: 50%;
     }
 
     .footer-logo img {
@@ -5065,6 +5074,7 @@ nav {
 
     .footer-logo {
         margin: 0 0 30px;
+        width: 30%;
     }
 
     .footer-text {
@@ -5080,7 +5090,7 @@ nav {
 /*For screens with a max-width of 499px and min-width of 400px*/
 @media(max-width: 499px) and (min-width: 400px) {
     .container1 {
-        margin: 30px 40px 0;
+        margin: 30px 30px 0;
         width: auto;
     }
 
