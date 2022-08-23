@@ -1780,6 +1780,28 @@ nav {
     margin: 0px;
 }
 
+.recent-info-btn {
+    background: #000;
+    margin: 10px 0 0;
+    padding: 12px 30px;
+    height: 60px;
+    width: auto;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+    font-family: 'Zilla Slab', sans-serif;
+}
+
+.recent-info-btn:hover {
+    background: #03b5d2 !important;
+}
+
+.recent-info-btn:active {
+    background: #03b5d2 !important;
+}
+
 /*For screens with a max-width of 1899px and min-width of 1600px*/
 @media(max-width: 1899px) and (min-width: 1600px) {
     /*----Trusted By Great Teams----*/
@@ -2901,6 +2923,7 @@ nav {
     /*---Recent Posts---*/
     .recent-posts-container {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         width: auto;
@@ -3843,9 +3866,9 @@ nav {
 
     /*---Recent Posts---*/
     .recent-posts-container {
-        display: flex;
-        justify-content: left !important;
-        align-items: left !important;
+        display: block;
+        justify-content: left;
+        align-items: left;
         text-align: left;
         width: auto;
         height: auto;
@@ -3855,16 +3878,16 @@ nav {
 
     .recent-posts-container h1 {
         font-size: 36px;
-        margin: 0 0 20px -300px;
+        margin: 0 0 20px;
         padding: 0;
         left: 0;
-        text-align: left;
     }
 
     .recent-line:after {
         width: 80px;
         height: 4px;
-        margin: 60px 0 0 -220px;
+        margin: 60px 0 0px 40px;
+        left: 0 !important;
     }
 
     .recent-posts-content {
@@ -4167,7 +4190,7 @@ nav {
 
     /*---Recent Posts---*/
     .recent-posts-container {
-        display: flex;
+        display: block;
         justify-content: left !important;
         align-items: left !important;
         text-align: left;
@@ -4179,7 +4202,7 @@ nav {
 
     .recent-posts-container h1 {
         font-size: 36px;
-        margin: 0 0 20px -100px;
+        margin: 0 0 20px 0;
         padding: 0;
         left: 0;
         text-align: left;
@@ -4188,7 +4211,8 @@ nav {
     .recent-line:after {
         width: 80px;
         height: 4px;
-        margin: 60px 0 0 -220px;
+        margin: 60px 0 0 30px;
+        left: 0 !important;
     }
 
     .recent-posts-content {
@@ -4278,7 +4302,7 @@ nav {
     }
 
     .teams h3 {
-        font-size: 24px;
+        font-size: 30px;
         padding: 0;
         width: auto;
         text-align: left;
@@ -4288,7 +4312,7 @@ nav {
     .clientele-line:after {
         width: 80px;
         height: 4px;
-        margin: 40px 0 0 -135px;
+        margin: 50px 0 0 -170px;
     }
 
     .row27 {
@@ -4428,17 +4452,18 @@ nav {
     }
 
     .container23-intro-text h1 {
-        font-size: 22px;
+        font-size: 30px;
         margin: 0 20px 20px;
         padding: 100px 0 20px;
         width: 450px;
         font-weight: 400;
+        width: auto;
     }
 
     .accred-line:after {
         width: 80px;
         height: 3px;
-        margin: 40px 0 0 -240px;
+        margin: 50px 0 0 -180px;
     }
 
     .container23-intro-text p {
@@ -4462,7 +4487,7 @@ nav {
     }
 
     .accred-col h2 {
-        font-size: 20px;
+        font-size: 25px;
         margin:  0 0 20px;
         padding: 0;
         width: 270px;
@@ -4523,7 +4548,7 @@ nav {
 
     /*---Recent Posts---*/
     .recent-posts-container {
-        display: flex;
+        display: block;
         justify-content: left !important;
         align-items: left !important;
         text-align: left;
@@ -4534,8 +4559,8 @@ nav {
     }
 
     .recent-posts-container h1 {
-        font-size: 24px;
-        margin: 0 0 20px -100px;
+        font-size: 30px;
+        margin: 0 0 20px 20px;
         padding: 0;
         left: 0;
         text-align: left;
@@ -4545,7 +4570,8 @@ nav {
     .recent-line:after {
         width: 80px;
         height: 4px;
-        margin: 40px 0 0 -145px;
+        margin: 50px 0 0 20px;
+        left: 0 !important;
     }
 
     .recent-posts-content {
@@ -4608,6 +4634,15 @@ nav {
 
     .date-container .year {
         margin: 0px;
+    }
+}
+
+/*For screens with a max-width of 399px and min-width of 280px*/
+@media(max-width: 399px) and (min-width: 374px) {
+    .accred-line:after {
+        width: 80px;
+        height: 3px;
+        margin: 50px 0 0 -330px;
     }
 }
 
