@@ -1463,6 +1463,15 @@ nav {
     margin: 0 30px;
 }
 
+.bigcold {
+    width: 100% !important;
+}
+
+.nova {
+    width: 100% !important;
+}
+
+
 /*------Services-----*/
 .container21 {
     background-image: url("images/services.jpg");
@@ -1781,7 +1790,7 @@ nav {
 }
 
 .recent-info-btn {
-    background: #000;
+    background-color: #000;
     margin: 10px 0 0;
     padding: 12px 30px;
     height: 60px;
@@ -1795,7 +1804,8 @@ nav {
 }
 
 .recent-info-btn:hover {
-    background: #03b5d2 !important;
+    background-color: #03b5d2 !important;
+    border: none !important;
 }
 
 .recent-info-btn:active {
@@ -3221,10 +3231,6 @@ nav {
         letter-spacing: 3px;
     }
 
-    .container {
-        margin: 0 20px !important;
-    }
-
     /*---Recent Posts---*/
     .recent-posts-container {
         display: flex;
@@ -3308,6 +3314,34 @@ nav {
 }
 
 /*For screens with a max-width of 983px and min-width of 700px*/
+@media(max-width: 983px) and (min-width: 901px) {
+    .container {
+        margin: 0 0 0 80px !important;
+    }
+}
+
+/*For screens with a max-width of 983px and min-width of 700px*/
+@media(max-width: 900px) and (min-width: 881px) {
+    .container {
+        margin: 0 0 0 50px !important;
+    }
+}
+
+/*For screens with a max-width of 983px and min-width of 700px*/
+@media(max-width: 880px) and (min-width: 851px) {
+    .container {
+        margin: 0 0 0 50px !important;
+    }
+}
+
+/*For screens with a max-width of 983px and min-width of 700px*/
+@media(max-width: 850px) and (min-width: 821px) {
+    .container {
+        margin: 0 0 0 50px !important;
+    }
+}
+
+/*For screens with a max-width of 983px and min-width of 700px*/
 @media(max-width: 983px) and (min-width: 700px) {
     .container-xxl {
         margin-top: -50px !important;
@@ -3341,14 +3375,18 @@ nav {
     .row27 {
         width: auto;
         height: auto;
-        column-gap: 0px;
+        column-gap: 20px;
         margin: 50px 60px 0;
     }
 
     .client-col {
-        width: 40%;
-        height: 150px;
-        border-bottom: 1px solid #e5e5e5 !important;
+        width: 30%;
+        height: 130px;
+        background-color: #F5F5F5;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
     }
 
     .second-row .client-col:last-child {
@@ -3372,6 +3410,21 @@ nav {
         width: 70%;
         height: auto;
         margin: 0 30px;
+    }
+
+    .nova {
+        width: 80% !important;
+        margin: 30px 0 0 20px !important;
+    }
+
+    .bigcold {
+        margin: 10px 0 0 10px !important;
+        width: 90% !important;
+    }
+
+    .scania {
+        width: 55% !important;
+        margin-left: 50px !important;
     }
 
     /*------Services-----*/
@@ -3530,17 +3583,9 @@ nav {
         justify-content: left;
     }
 
-    .kca {
-        margin: 10px 0 0 80px !important;
-    }
-
     /*** Appointment ***/
     .btn {
         letter-spacing: 3px;
-    }
-
-    .container {
-        margin: 0 20px !important;
     }
 
     /*---Recent Posts---*/
@@ -3626,6 +3671,32 @@ nav {
 }
 
 /*For screens with a max-width of 699px and min-width of 500px*/
+@media(max-width: 770px) and (min-width: 700px) {
+    .client-col {
+        height: 100px;
+    }
+
+    .scania {
+        width: 60% !important;
+        margin-left: 40px !important;
+    }
+}
+
+/*For screens with a max-width of 699px and min-width of 500px*/
+@media(max-width: 699px) and (min-width: 550px) {
+    .scania {
+        width: 55% !important;
+        margin-left: 50px !important;
+        margin-top: 0px !important;
+    }
+
+    .muthokinju {
+        width: 60% !important;
+        margin-left: 40px !important;
+    }
+}
+
+/*For screens with a max-width of 699px and min-width of 500px*/
 @media(max-width: 699px) and (min-width: 500px) {
     .container-xxl {
         margin-top: -50px;
@@ -3660,14 +3731,16 @@ nav {
     .row27 {
         width: auto;
         height: auto;
-        column-gap: 0px;
+        column-gap: 20px;
         margin: 0px 0px 0;
     }
 
     .client-col {
         width: 40%;
         height: 130px;
-        border-bottom: 1px solid #e5e5e5 !important;
+        background-color: #F5F5F5;
+        margin-bottom: 20px;
+        border-radius: 10px;
     }
 
     .second-row .client-col:last-child {
@@ -3691,6 +3764,16 @@ nav {
         width: 70%;
         height: auto;
         margin: 0 30px;
+    }
+
+    .bigcold {
+        margin: 15px 0 0 10px !important;
+        width: 90% !important;
+    }
+
+    .nova {
+        width: 80% !important;
+        margin: 40px 0 0 20px !important;
     }
 
     /*------Services-----*/
@@ -3984,14 +4067,16 @@ nav {
     .row27 {
         width: auto;
         height: auto;
-        column-gap: 0px;
-        margin: 0px 0px 0 -20px;
+        column-gap: 20px;
+        margin: 0px 0px 0 0px;
     }
 
     .client-col {
         width: 40%;
-        height: 120px;
-        border-bottom: 1px solid #e5e5e5 !important;
+        height: 110px;
+        background-color: #F5F5F5;
+        margin-bottom: 20px;
+        border-radius: 10px;
     }
 
     .second-row .client-col:last-child {
@@ -4012,9 +4097,25 @@ nav {
     }
 
     .client-col img {
-        width: 70%;
+        width: 80%;
         height: auto;
-        margin: 0 30px;
+        margin: 0 15px;
+    }
+
+    .bigcold {
+        margin: 15px 0 0 10px !important;
+        width: 90% !important;
+    }
+
+    .nova {
+        width: 80% !important;
+        margin: 40px 0 0 15px !important;
+    }
+
+    .scania {
+        width: 70% !important;
+        margin-left: 25px !important;
+        margin-top: 0px !important;
     }
 
     /*------Services-----*/
@@ -4318,14 +4419,16 @@ nav {
     .row27 {
         width: auto;
         height: auto;
-        column-gap: 0px;
-        margin: 0px 0px 0 -30px;
+        column-gap: 20px;
+        margin: 0px 0px 0 0px;
     }
 
     .client-col {
         width: 40%;
-        height: 100px;
-        border-bottom: 1px solid #e5e5e5 !important;
+        height: 80px;
+        background-color: #F5F5F5;
+        margin-bottom: 20px;
+        border-radius: 10px;
     }
 
     .kca {
@@ -4353,7 +4456,58 @@ nav {
     .client-col img {
         width: 70%;
         height: auto;
-        margin: 0 30px;
+        margin: 0 15px;
+    }
+
+    .bigcold {
+        margin: 10px 0 0 10px !important;
+        width: 90% !important;
+    }
+
+    .nova {
+        width: 80% !important;
+        margin: 25px 0 0 15px !important;
+    }
+
+    .scania {
+        width: 60% !important;
+        margin-left: 25px !important;
+        margin-top: 0px !important;
+    }
+
+    .isuzu {
+        margin-top: 15px !important;
+        margin-left: 20px !important;
+    }
+
+    .cocacola {
+        margin-top: 15px !important;
+        margin-left: 20px !important;
+    }
+
+    .guardian {
+        margin-top: 20px !important;
+    }
+
+    .acceler {
+        margin-top: 20px !important;
+    }
+
+    .muthokinju {
+        margin-top: -5px !important;
+    }
+
+    .naivas {
+        margin-top: 20px !important;
+    }
+
+    .rusinga {
+        margin-top: 25px !important;
+        margin-left: 20px !important;
+    }
+
+    .apollo {
+        margin-top: 20px !important;
     }
 
     /*------Services-----*/
