@@ -4118,6 +4118,16 @@ nav {
         margin-top: 0px !important;
     }
 
+    .bigcold {
+        margin: 20px 0 0 10px !important;
+        width: 90% !important;
+    }
+
+    .nova {
+        width: 80% !important;
+        margin: 35px 0 0 15px !important;
+    }
+
     /*------Services-----*/
     .container21 {
         background-image: url("images/services.jpg");
