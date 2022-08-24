@@ -4645,7 +4645,7 @@ nav {
         background-color: #fff;
         flex-grow: 1;
         padding: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
         text-align: left;
     }
 
@@ -4662,17 +4662,17 @@ nav {
     }
 
     .accred-logo-cont {
-        width: auto;
+        width: 100%;
         height: auto;
         column-gap: 20px;
-        margin: 0;
+        margin: 0 0 0 -10px;
         padding: 0;
     }
 
     .accreditation-logo {
-        width: 100%;
-        margin: 20px 30px;
-        padding: 0 0 10px;
+        width: 45%;
+        margin: 20px 0px;
+        padding: 0 0px 0 10px;
         border-right: none;
     }
 
@@ -4681,7 +4681,7 @@ nav {
     }
 
     .accreditation-logo img {
-        width: 60%;
+        width: 100%;
         height: 100px;
         object-fit: contain;
     }
