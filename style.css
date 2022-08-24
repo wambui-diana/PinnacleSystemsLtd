@@ -3409,7 +3409,7 @@ nav {
     .client-col img {
         width: 70%;
         height: auto;
-        margin: 0 30px;
+        margin: 0 20px;
     }
 
     .nova {
@@ -3418,7 +3418,7 @@ nav {
     }
 
     .bigcold {
-        margin: 10px 0 0 10px !important;
+        margin: 15px 0 0 10px !important;
         width: 90% !important;
     }
 
@@ -4469,6 +4469,10 @@ nav {
         margin: 25px 0 0 15px !important;
     }
 
+    .g4s {
+        margin-left: 20px !important;
+    }
+
     .scania {
         width: 60% !important;
         margin-left: 28px !important;
@@ -4487,10 +4491,12 @@ nav {
 
     .guardian {
         margin-top: 20px !important;
+        margin-left: 20px !important;
     }
 
     .acceler {
         margin-top: 20px !important;
+        margin-left: 20px !important;
     }
 
     .muthokinju {
@@ -4500,15 +4506,17 @@ nav {
 
     .naivas {
         margin-top: 20px !important;
+        margin-left: 20px !important;
     }
 
     .rusinga {
         margin-top: 25px !important;
-        margin-left: 20px !important;
+        margin-left: 22px !important;
     }
 
     .apollo {
         margin-top: 20px !important;
+        margin-left: 20px !important;
     }
 
     /*------Services-----*/
