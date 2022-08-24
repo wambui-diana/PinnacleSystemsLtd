@@ -4471,8 +4471,8 @@ nav {
 
     .scania {
         width: 60% !important;
-        margin-left: 25px !important;
-        margin-top: 0px !important;
+        margin-left: 28px !important;
+        margin-top: -5px !important;
     }
 
     .isuzu {
@@ -4494,7 +4494,8 @@ nav {
     }
 
     .muthokinju {
-        margin-top: -5px !important;
+        margin-top: -10px !important;
+        margin-left: 20px !important;
     }
 
     .naivas {
