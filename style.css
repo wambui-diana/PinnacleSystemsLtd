@@ -56,7 +56,73 @@ header {
     border-bottom: 1px solid #e5e5e5;
 }
 
-#show-megamenu {
+.login-menu-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 20px 300px 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tel-icon {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.phone-content p {
+    font-size: 14px;
+    margin: 0px 30px 0 0;
+    color: #000;
+}
+
+.quotebtn {
+    border: none;
+    border-radius: 10px;
+    background-color: #191970;
+    color: #fff;
+    margin: 0px 20px 0 10px;
+    padding: 0;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Zilla Slab', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.quotebtn:hover {
+    background-color: #03b5d2;
+}
+
+.trackingbtn {
+    border: 2px solid #191970;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    margin: 0px 20px 0 10px;
+    padding: 0;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Zilla Slab', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.trackingbtn:hover {
+    background-color: #03b5d2;
+    color: #fff;
+}
+
+.tracking {
     display: none;
 }
 
@@ -320,6 +386,15 @@ nav {
 
 /*For screens with a max-width of 1899px and min-width of 1600px*/
 @media(max-width: 1899px) and (min-width: 1600px) {
+    .login-menu-container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        padding: 20px 150px 20px 0;
+    }
+
     .ind-title {
         position: absolute;
         margin: 20px 0 !important;
@@ -365,6 +440,15 @@ nav {
 
 /*For screens with a max-width of 1599px and min-width of 1400px*/
 @media(max-width: 1599px) and (min-width: 1400px) {
+    .login-menu-container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        padding: 20px 50px 20px 0;
+    }
+
     .ind-title {
         position: absolute;
         margin: 20px 0 !important;
@@ -411,6 +495,41 @@ nav {
 
 /*For screens with a max-width of 1399px and min-width of 1281px*/
 @media(max-width: 1399px) and (min-width: 1281px) {
+    .login-menu-container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        padding: 20px 30px 20px 0;
+    }
+
+    .tel-icon {
+        width: 28px;
+        padding-right: 10px;
+    }
+
+    .phone-content p {
+        font-size: 12px;
+        margin: 0px 30px 0 0;
+    }
+
+    .quotebtn {
+        margin: 0px 20px 0 10px;
+        padding: 0;
+        height: 35px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .trackingbtn {
+        margin: 0px 20px 0 10px;
+        padding: 0;
+        height: 35px;
+        width: 140px;
+        font-size: 14px;
+    }
+
     nav {
         max-width: 1200px;
         margin: 30px auto 0;
@@ -470,6 +589,41 @@ nav {
 
 /*For screens with a max-width of 1280px and min-width of 1150px*/
 @media(max-width: 1280px) and (min-width: 1150px) {
+    .login-menu-container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        padding: 20px 0px 20px 0;
+    }
+
+    .tel-icon {
+        width: 28px;
+        padding-right: 10px;
+    }
+
+    .phone-content p {
+        font-size: 12px;
+        margin: 0px 30px 0 0;
+    }
+
+    .quotebtn {
+        margin: 0px 20px 0 10px;
+        padding: 0;
+        height: 35px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .trackingbtn {
+        margin: 0px 20px 0 10px;
+        padding: 0;
+        height: 35px;
+        width: 140px;
+        font-size: 14px;
+    }
+
     nav {
         max-width: 1200px;
         margin: 30px auto 0;
@@ -549,6 +703,41 @@ nav {
 
 /*For screens with a max-width of 1149ox and min-width of 1091px*/
 @media(max-width: 1149px) and (min-width: 1091px) {
+    .login-menu-container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        padding: 20px 0px 20px 0;
+    }
+
+    .tel-icon {
+        width: 28px;
+        padding-right: 10px;
+    }
+
+    .phone-content p {
+        font-size: 12px;
+        margin: 0px 30px 0 0;
+    }
+
+    .quotebtn {
+        margin: 0px 20px 0 10px;
+        padding: 0;
+        height: 35px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .trackingbtn {
+        margin: 0px 20px 0 10px;
+        padding: 0;
+        height: 35px;
+        width: 140px;
+        font-size: 14px;
+    }
+
     nav {
         width: 100%;
     }
@@ -626,6 +815,41 @@ nav {
 
 /*For screens with a max-width of 1090px and min-width of 1000px*/
 @media(max-width: 1090px) and (min-width: 1000px) {
+    .login-menu-container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        padding: 20px 0px 20px 0;
+    }
+
+    .tel-icon {
+        width: 28px;
+        padding-right: 10px;
+    }
+
+    .phone-content p {
+        font-size: 12px;
+        margin: 0px 30px 0 0;
+    }
+
+    .quotebtn {
+        margin: 0px 20px 0 10px;
+        padding: 0;
+        height: 35px;
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .trackingbtn {
+        margin: 0px 20px 0 10px;
+        padding: 0;
+        height: 35px;
+        width: 140px;
+        font-size: 14px;
+    }
+
     nav {
         width: 100%;
     }
@@ -710,6 +934,14 @@ nav {
 
 /*For screens with a max-width of 999px and min-width of 350px*/
 @media(max-width: 999px) and (min-width: 350px) {
+    .login-menu-container {
+        display: none;
+    }
+
+    .tracking {
+        display: block;
+    }
+
     #preloader img {
         width: 50%;
     }
@@ -899,6 +1131,14 @@ nav {
 
 /*For screens with a max-width of 349px and min-width of 280px*/
 @media(max-width: 349px) and (min-width: 280px) {
+    .login-menu-container {
+        display: none;
+    }
+
+    .tracking {
+        display: block;
+    }
+    
     #preloader img {
         width: 100%;
     }
