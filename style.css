@@ -7687,6 +7687,12 @@ nav {
     height: auto;
 }
 
+.smartlock {
+    height: 100% !important;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
+
 .prod-features {
     width: auto;
     height: auto;
@@ -7747,6 +7753,10 @@ nav {
 
 .features-desc-icon {
     width: 100%;
+}
+
+.access {
+    margin-left: 10px;
 }
 
 .lines {
@@ -8193,6 +8203,12 @@ nav {
         width: 150px;
         font-size: 16px;
     }
+
+    .smartlock {
+        height: 100% !important;
+        object-fit: cover;
+        object-position: 100% 100%;
+    }
     
     .prod-features {
         width: auto;
@@ -8424,6 +8440,12 @@ nav {
         margin: 100px 0 0;
     }
     
+    .smartlock {
+        height: 100% !important;
+        object-fit: cover;
+        object-position: 100% 100%;
+    }
+
     .features-content {
         padding: 50px 100px;
         column-gap: 30px;
@@ -8645,6 +8667,12 @@ nav {
         height: auto;
         background-color: #F9F9FC;
         margin: 100px 0 0;
+    }
+
+    .smartlock {
+        height: 100% !important;
+        object-fit: cover;
+        object-position: 100% 100%;
     }
     
     .features-content {
@@ -8879,6 +8907,10 @@ nav {
         background-color: #F9F9FC;
         margin: 100px 0 0;
     }
+
+    .smartlock {
+        height: auto !important;
+    }
     
     .features-content {
         padding: 50px 60px;
@@ -9109,6 +9141,10 @@ nav {
         height: auto;
         background-color: #F9F9FC;
         margin: 100px 0 0;
+    }
+
+    .smartlock {
+        height: auto !important;
     }
     
     .features-content {
@@ -9344,6 +9380,10 @@ nav {
         height: auto;
         background-color: #F9F9FC;
         margin: 100px 0 0;
+    }
+
+    .smartlock {
+        height: auto !important;
     }
     
     .features-content {
@@ -9594,6 +9634,10 @@ nav {
         height: auto;
         background-color: #F9F9FC;
         margin: 100px 0 0;
+    }
+
+    .smartlock {
+        height: auto !important;
     }
     
     .features-content {
@@ -9850,6 +9894,10 @@ nav {
         height: auto;
         background-color: #F9F9FC;
         margin: 100px 0 0;
+    }
+
+    .smartlock {
+        height: auto !important;
     }
     
     .features-content {
