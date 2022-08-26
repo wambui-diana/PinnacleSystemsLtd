@@ -3013,7 +3013,7 @@ nav {
     .container21 {
         background-image: url("images/services.jpg");
         min-height: 600px; 
-        background-attachment: fixed;
+        background-attachment: fixed !important;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -3314,7 +3314,7 @@ nav {
     .container21 {
         background-image: url("images/services.jpg");
         min-height: 600px; 
-        background-attachment: fixed;
+        background-attachment: fixed !important;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -3670,7 +3670,7 @@ nav {
     /*------Services-----*/
     .container21 {
         background-image: url("images/services.jpg");
-        min-height: 600px; 
+        min-height: 1000px; 
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -4019,7 +4019,7 @@ nav {
     /*------Services-----*/
     .container21 {
         background-image: url("images/services.jpg");
-        min-height: 600px; 
+        min-height: 1000px; 
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -4371,7 +4371,7 @@ nav {
     /*------Services-----*/
     .container21 {
         background-image: url("images/services.jpg");
-        min-height: 600px; 
+        min-height: 1000px; 
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -4772,7 +4772,7 @@ nav {
     /*------Services-----*/
     .container21 {
         background-image: url("images/services.jpg");
-        min-height: 600px; 
+        min-height: 1000px; 
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
