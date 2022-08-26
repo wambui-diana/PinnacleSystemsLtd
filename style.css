@@ -7845,7 +7845,7 @@ nav {
 }
 
 .small-nav-menu {
-    margin: 150px 300px 0;
+    margin: 200px 300px 0;
 }
 
 .small-nav-menu a {
@@ -8338,7 +8338,7 @@ nav {
     }
     
     .small-nav-menu {
-        margin: 140px 200px 0;
+        margin: 200px 200px 0;
     }
     
     .container8 {
@@ -8561,7 +8561,7 @@ nav {
     }
     
     .small-nav-menu {
-        margin: 140px 150px 0;
+        margin: 200px 150px 0;
     }
     
     .container8 {
@@ -8790,7 +8790,7 @@ nav {
     }
     
     .small-nav-menu {
-        margin: 140px 100px 0;
+        margin: 200px 100px 0;
     }
     
     .container8 {
@@ -9019,7 +9019,7 @@ nav {
     }
     
     .small-nav-menu {
-        margin: 140px 100px 0;
+        margin: 200px 100px 0;
     }
     
     .container8 {
@@ -9248,7 +9248,7 @@ nav {
     }
     
     .small-nav-menu {
-        margin: 140px 60px 0;
+        margin: 200px 60px 0;
     }
     
     .container8 {
@@ -13521,7 +13521,7 @@ nav {
 /*For screens with a max-width of 1899px and min-width of 1600px*/
 @media(max-width: 1899px) and (min-width: 1600px) {
     .container15 {
-        margin: 100px 0 0 130px;
+        margin: 100px 0 0 200px;
     }
     
     .container15 h1 {
@@ -13568,7 +13568,7 @@ nav {
     }
 
     .container16 {
-        margin: 0 100px 50px 30px;
+        margin: 0 100px 50px 100px;
         padding: 20px;
         width: auto;
     }
@@ -13646,7 +13646,7 @@ nav {
 /*For screens with a max-width of 1599px and min-width of 1400px*/
 @media(max-width: 1599px) and (min-width: 1400px) {
     .container15 {
-        margin: 100px 0 0 90px;
+        margin: 100px 0 0 150px;
     }
     
     .container15 h1 {
@@ -13693,7 +13693,7 @@ nav {
     }
 
     .container16 {
-        margin: 0 100px 50px 30px;
+        margin: 0 100px 50px 90px;
         padding: 20px;
         width: auto;
     }
@@ -13900,7 +13900,7 @@ nav {
 /*For screens with a max-width of 1280px and min-width of 769px*/
 @media(max-width: 1280px) and (min-width: 769px) {
     .container15 {
-        margin: 100px 0 0 70px;
+        margin: 100px 0 0 60px;
     }
     
     .container15 h1 {
@@ -13948,7 +13948,7 @@ nav {
     }
 
     .container16 {
-        margin: 0 60px 50px;
+        margin: 0 40px 50px;
         padding: 20px;
         width: auto;
     }
