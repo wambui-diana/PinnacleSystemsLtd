@@ -47,7 +47,7 @@ li {
 }
 
 header {
-    position: fixed;
+    position: fixed !important;
     top: 0;
     left: 0;
     width: 100%;
@@ -195,6 +195,8 @@ nav {
     display: flex;
     position: fixed;
     width: 100%;
+    height: 100%;
+    max-height: 450px;
     top: 150px;
     left: 0;
     background-color: #F5F5F5;
@@ -206,6 +208,10 @@ nav {
     border-top: 2px solid #191970;
     padding: 30px;
     z-index: 20000;
+}
+
+.industries {
+    height: 250px;
 }
 
 .content {
@@ -414,6 +420,11 @@ nav {
         padding: 30px 0px 30px 130px;
         justify-content: left;
         flex-wrap: wrap;
+        overflow: scroll !important;
+    }
+
+    .industries {
+        height: 200px;
     }
 
     .security {
@@ -468,6 +479,11 @@ nav {
         padding: 30px 0px 30px 30px;
         justify-content: left;
         flex-wrap: wrap;
+        overflow: scroll !important;
+    }
+
+    .industries {
+        height: 200px;
     }
 
     .security {
@@ -555,9 +571,14 @@ nav {
     }
 
     .megamenu {
-        padding: 30px 0px 30px 150px;
+        padding: 30px 0px 30px 40px;
         justify-content: left;
         flex-wrap: wrap;
+        overflow: scroll !important;
+    }
+
+    .industries {
+        height: 320px;
     }
 
     .canvas {
@@ -574,15 +595,31 @@ nav {
     }
 
     .contbtn {
-        margin: 10px 0 0 10px;
+        margin: 67px 0 0 10px;
     }
 
     .ind-title {
-        left: 15%;
+        left: 6%;
     }
 
     #preloader img {
         width: 20%;
+    }
+}
+
+/*For screens with a max-width of 1399px and min-width of 1329px*/
+@media(max-width: 1399px) and (min-width: 1329px) {
+    .contbtn {
+        margin: 10px 0 0 10px;
+    }
+
+    .canvas {
+        border-right: 2px solid #e5e5e5 !important;
+    }
+
+    .security {
+        border-right: none !important;
+        margin-top: 0px !important;
     }
 }
 
@@ -667,6 +704,11 @@ nav {
         padding: 30px 0px 30px 30px;
         justify-content: left;
         flex-wrap: wrap;
+        overflow: scroll !important;
+    }
+
+    .industries {
+        height: 320px;
     }
 
     .canvas {
@@ -683,7 +725,7 @@ nav {
     }
 
     .contbtn {
-        margin: 10px 0 0 10px;
+        margin: 67px 0 0 10px;
     }
 
     .ind-title {
@@ -780,6 +822,11 @@ nav {
         padding: 30px 0px 30px 30px;
         justify-content: left;
         flex-wrap: wrap;
+        overflow: scroll !important;
+    }
+
+    .industries {
+        height: 320px;
     }
 
     .canvas {
@@ -796,7 +843,7 @@ nav {
     }
 
     .contbtn {
-        margin: 10px 0 0 10px;
+        margin: 67px 0 0 10px;
     }
 
     .ind-title {
@@ -892,6 +939,11 @@ nav {
         padding: 30px 0px;
         justify-content: left;
         flex-wrap: wrap;
+        overflow: scroll !important;
+    }
+
+    .industries {
+        height: 320px;
     }
 
     .canvas {
@@ -908,7 +960,7 @@ nav {
     }
 
     .contbtn {
-        margin: 10px 0 0 10px;
+        margin: 67px 0 0 10px;
     }
 
     .ind-title {
