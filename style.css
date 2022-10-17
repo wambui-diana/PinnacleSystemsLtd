@@ -20,6 +20,7 @@ html {
 
 body {
     user-select: none;
+    overflow-x: hidden !important;
 }
 
 #preloader {
