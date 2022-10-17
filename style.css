@@ -3833,7 +3833,7 @@ nav {
     .row27 {
         width: auto;
         height: auto;
-        column-gap: 20px;
+        column-gap: 20px !important;
         margin: 50px 60px 0;
     }
 
