@@ -15519,7 +15519,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 33%;
-    height: auto;
+    height: auto !important;
 }
 
 .gallery-images img {
@@ -15965,6 +15965,7 @@ nav {
     .gallery-images {
         width: 100%;
         width: 33%;
+        height: 100% !important;
     }
 
     .gallery-images img {
