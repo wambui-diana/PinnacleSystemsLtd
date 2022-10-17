@@ -1013,6 +1013,7 @@ nav {
     .show {
         height: auto !important;
         transition: all 0.3s ease;
+        overflow: scroll !important;
     }
 
     .megamenu-item {
