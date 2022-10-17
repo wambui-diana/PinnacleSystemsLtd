@@ -12530,7 +12530,7 @@ nav {
         margin: 80px auto;
         padding: 0 30px 0 0;
         column-gap: 30px;
-        display: flow-root;
+        display: flow-root !important;
     }
     
     .row18 .process-col1 {
