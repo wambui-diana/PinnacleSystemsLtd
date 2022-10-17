@@ -15358,6 +15358,11 @@ nav {
     height: 300px;
 }
 
+.iron-img {
+    height: 100%;
+    object-fit: cover;
+}
+
 .other-blog-card h3 {
     margin: 0;
     font-family: 'Zilla Slab', sans-serif;
