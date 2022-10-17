@@ -16096,6 +16096,7 @@ nav {
 
     .main-blog-content {
         width: 100%;
+        margin-bottom: 40px;
     }
 
     .gallery-container {
@@ -16215,6 +16216,8 @@ nav {
 
     .main-blog-container {
         display: block;
+        justify-content: left;
+        height: auto !important;
     }
 
     .main-blog-image {
@@ -16232,6 +16235,8 @@ nav {
 
     .main-blog-content {
         width: 100%;
+        margin-bottom: 50px;
+        height: auto !important;
     }
 
     .gallery-container {
@@ -16510,5 +16515,35 @@ nav {
     .share-icons img {
         width: 30px;
         margin: -5px 5px 0;
+    }
+}
+
+/*For screens with a max-width of 460px and min-width of 400px*/
+@media(max-width: 460px) and (min-width: 400px) {
+    .gallery-container {
+        margin: 90px 0px 0px !important;
+        display: block;
+        justify-content: flex-start;
+        align-items: left;
+    }
+}
+
+/*For screens with a max-width of 360px and min-width of 320px*/
+@media(max-width: 360px) and (min-width: 320px) {
+    .gallery-container {
+        margin: 100px 0px 0px 30px !important;
+        display: block;
+        justify-content: flex-start;
+        align-items: left;
+    }
+}
+
+/*For screens with a max-width of 319px and min-width of 280px*/
+@media(max-width: 319px) and (min-width: 280px) {
+    .gallery-container {
+        margin: 130px 0px 0px 30px !important;
+        display: block;
+        justify-content: flex-start;
+        align-items: left;
     }
 }
