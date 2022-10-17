@@ -15960,6 +15960,7 @@ nav {
     .gallery-content {
         margin: 20px 0 50px;
         padding: 10px 60px 0;
+        height: auto;
     }
 
     .gallery-images {
