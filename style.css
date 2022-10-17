@@ -15,6 +15,7 @@ p {
 html {
     scroll-behavior: smooth;
     overflow-x: hidden !important;
+    max-width: fit-content !important;
 }
 
 body {
