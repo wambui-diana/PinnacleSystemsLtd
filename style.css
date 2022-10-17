@@ -4069,7 +4069,7 @@ nav {
         align-items: center;
         width: auto;
         height: auto;
-        margin: 100px 60px;
+        margin: 100px 0px;
         flex-direction: column;
     }
 
@@ -4091,8 +4091,8 @@ nav {
     }
 
     .recent-card {
-        max-width: 450px;
-        width: 450px;
+        max-width: 350px;
+        width: 350px;
         height: auto;
         margin: 0 auto 30px;
     }
@@ -4153,6 +4153,21 @@ nav {
     .scania {
         width: 60% !important;
         margin-left: 40px !important;
+    }
+
+    .recent-posts-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+        margin: 100px 20px;
+        flex-direction: column;
+    }
+
+    .recent-posts-content {
+        column-gap: 10px;
+        margin-top: 50px;
     }
 }
 
