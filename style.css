@@ -3882,8 +3882,9 @@ nav {
     }
 
     .scania {
-        width: 55% !important;
-        margin-left: 50px !important;
+        width: 50% !important;
+        margin-top: -15px !important;
+        margin-left: 55px !important;
     }
 
     .muthokinju {
