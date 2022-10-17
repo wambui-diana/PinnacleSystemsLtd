@@ -12529,20 +12529,20 @@ nav {
         width: 80%;
         margin: 80px auto;
         padding: 0 30px 0 0;
-        column-gap: 30px;
+        column-gap: 0px;
         display: flow-root !important;
     }
     
     .row18 .process-col1 {
         width: 100%;
         width: 250px;
-        margin-bottom: 30px;
+        margin: 0 30px 30px 0;
     }
     
     .row18 .process-col2 {
         width: 100%;
         width: 250px;
-        margin-bottom: 30px;
+        margin: 0 30px 30px 0;
     }
     
     .row18 .process-col3 {
