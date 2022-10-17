@@ -15955,6 +15955,7 @@ nav {
 
     .gallery-container {
         margin: 50px 0px 0px;
+        height: auto;
     }
 
     .gallery-content {
@@ -15966,7 +15967,7 @@ nav {
     .gallery-images {
         width: 100%;
         width: 33%;
-        height: 100% !important;
+        height: auto !important;
     }
 
     .gallery-images img {
