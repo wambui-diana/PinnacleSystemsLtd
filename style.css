@@ -13,14 +13,14 @@ p {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
     overflow-x: hidden !important;
-    width: 100% !important;
 }
 
 body {
     user-select: none;
     overflow-x: hidden !important;
+    scroll-behavior: smooth !important;
 }
 
 #preloader {
