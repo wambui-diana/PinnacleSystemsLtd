@@ -14,7 +14,7 @@ p {
 
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden !important;
+    overflow-x: clip !important;
 }
 
 body {
