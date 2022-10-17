@@ -4613,6 +4613,11 @@ nav {
         margin-top: -50px;
     }
 
+    .why-us-img {
+        object-fit: cover;
+        object-position: 70% 100%;
+    }
+
     /*----Trusted By Great Teams----*/
     .container19 {
         margin: 50px 30px;
@@ -4992,6 +4997,11 @@ nav {
 @media(max-width: 399px) and (min-width: 280px) {
     .container-xxl {
         margin-top: -50px;
+    }
+
+    .why-us-img {
+        object-fit: cover;
+        object-position: 50% 100%;
     }
 
     .h-100 p {
