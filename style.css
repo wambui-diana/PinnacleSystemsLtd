@@ -50,7 +50,7 @@ header {
     position: fixed !important;
     top: 0;
     left: 0;
-    width: auto;
+    width: 100%;
     background-color: #fff;
     z-index: 10000;
     border-bottom: 1px solid #e5e5e5;
