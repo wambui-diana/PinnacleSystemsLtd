@@ -14,8 +14,8 @@ p {
 
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden !important;
-    min-width: 100% !important;
+    overflow: hidden !important;
+    width: 100% !important;
 }
 
 body {
