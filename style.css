@@ -3834,7 +3834,7 @@ nav {
     .row27 {
         width: auto;
         height: auto;
-        column-gap: 20px !important;
+        column-gap: 0px !important;
         margin: 50px 20px 0;
     }
 
@@ -3842,7 +3842,7 @@ nav {
         width: 30%;
         height: 130px;
         background-color: #F5F5F5;
-        margin-bottom: 20px;
+        margin: 0 20px 20px 0;
         border-radius: 10px;
         align-items: center;
         justify-content: center;
