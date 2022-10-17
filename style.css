@@ -15,7 +15,6 @@ p {
 html {
     scroll-behavior: smooth;
     overflow-x: hidden !important;
-    white-space: nowrap; 
 }
 
 body {
