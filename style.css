@@ -6233,12 +6233,15 @@ nav {
 
 /*-----About Us Image----*/
 .container2 {
-    position: relative;
-    width: auto;
-    height: 60vh;
-    margin: 140px 0 20px;
+    background-image: url("images/about.png");
+    height: 60vh; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 140px 0 20px !important;
     box-sizing: border-box;
-    background-image: linear-gradient(to right, #000046, #1CB5E0);
+    position: relative;
 }
 
 .container2 img {
@@ -6515,6 +6518,7 @@ nav {
         width: auto;
         height: 70%;
         box-sizing: border-box;
+        background-size: 1800px 900px;
     }
 
     .row4 {
@@ -6646,6 +6650,7 @@ nav {
         width: auto;
         height: 70%;
         box-sizing: border-box;
+        background-size: 1600px 800px;
     }
 
     .row4 {
@@ -6777,6 +6782,7 @@ nav {
         width: auto;
         height: 70%;
         box-sizing: border-box;
+        background-size: 1450px 800px;
     }
 
     .row4 {
@@ -6917,6 +6923,7 @@ nav {
         width: auto;
         height: 70%;
         box-sizing: border-box;
+        background-size: 1400px 750px;
     }
     
     .row4 {
@@ -7057,8 +7064,9 @@ nav {
     .container2 {
         position: relative;
         width: auto;
-        height: 60%;
+        height: 50%;
         box-sizing: border-box;
+        background-size: 1200px 600px;
     }
 
     .row3 {
@@ -7237,8 +7245,9 @@ nav {
     .container2 {
         position: relative;
         width: auto;
-        height: 60%;
+        height: 50%;
         box-sizing: border-box;
+        background-size: 1000px 550px;
     }
 
     .row4 {
@@ -7423,8 +7432,10 @@ nav {
     .container2 {
         position: relative;
         width: auto;
-        height: 50%;
+        height: 30%;
         box-sizing: border-box;
+        background-size: 900px 400px;
+        background-position: center top;
     }
 
     .row4 {
@@ -7609,8 +7620,10 @@ nav {
     .container2 {
         position: relative;
         width: auto;
-        height: 50%;
+        height: 30%;
         box-sizing: border-box;
+        background-size: 950px 450px;
+        background-position: center top;
     }
 
     .ellipses3 {
@@ -7810,8 +7823,10 @@ nav {
     .container2 {
         position: relative;
         width: auto;
-        height: 50%;
+        height: 30%;
         box-sizing: border-box;
+        background-size: 950px 450px;
+        background-position: center top;
     }
 
     .ellipses3 {
@@ -10661,10 +10676,10 @@ nav {
 }
 
 .container20 {
-    background-image: url("images/career3.jpg");
+    background-image: url("images/career4.jpg");
     height: 60vh; 
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 140px 0 20px !important;
@@ -12119,7 +12134,7 @@ nav {
     }
 
     .container3 {
-        margin: 100px 0 0 60px;
+        margin: 50px 0 0 60px;
     }
 
     .about-us-col1 {
@@ -12368,7 +12383,7 @@ nav {
     }
 
     .container3 {
-        margin: 100px 0 0 40px;
+        margin: 50px 0 0 40px;
     }
 
     .about-us-col1 {
@@ -12595,7 +12610,7 @@ nav {
         width: auto;
         height: 50%;
         box-sizing: border-box;
-        background-image: linear-gradient(to right, #000046, #1CB5E0);
+        background-position: right center;
     }
 
     .career-info {
@@ -12863,7 +12878,7 @@ nav {
         width: auto;
         height: 50%;
         box-sizing: border-box;
-        background-image: linear-gradient(to right, #000046, #1CB5E0);
+        background-position: center right;
     }
 
     .career-info {
@@ -13140,7 +13155,7 @@ nav {
         width: auto;
         height: 50%;
         box-sizing: border-box;
-        background-image: linear-gradient(to right, #000046, #1CB5E0);
+        background-position: right;
     }
     .career-info {
         padding: 130px 0;
