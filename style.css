@@ -6233,15 +6233,12 @@ nav {
 
 /*-----About Us Image----*/
 .container2 {
-    background-image: url("images/image40.jpg");
-    height: 60vh; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 140px 0 20px !important;
-    box-sizing: border-box;
     position: relative;
+    width: auto;
+    height: 60vh;
+    margin: 140px 0 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #000046, #1CB5E0);
 }
 
 .container2 img {
