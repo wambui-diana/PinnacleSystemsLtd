@@ -2106,6 +2106,13 @@ nav {
     color: #fff !important;
 }
 
+form input:focus,
+form textarea:focus,
+form button:focus {
+  border-color: #03b5d2 !important;
+  box-shadow: none !important;
+}
+
 /*---Recent Posts---*/
 .recent-posts-container {
     display: flex;
