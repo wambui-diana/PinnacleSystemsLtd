@@ -7055,7 +7055,7 @@ form button:focus {
 @media(max-width: 1149px) and (min-width: 984px) {
     .container2 {
         position: relative;
-        background-position: center !important;
+        background-position: center top !important;
     }
 
     .row3 {
@@ -7420,7 +7420,7 @@ form button:focus {
     .container2 {
         position: relative;
         height: 40%;
-        background-size: 1100px;
+        background-size: 1150px;
         background-position: center top;
     }
 
@@ -7604,11 +7604,10 @@ form button:focus {
 /*For screens with a max-width of 499px and min-width of 400px*/
 @media(max-width: 499px) and (min-width: 400px) {
     .container2 {
-        background-image: url("images/our-products2.png") !important;
         position: relative;
-        height: 30%;
-        background-size: 900px;
-        background-position: center top;
+        height: 40%;
+        background-size: 1000px;
+        background-position: center top !important;
     }
 
     .ellipses3 {
@@ -7808,8 +7807,8 @@ form button:focus {
     .container2 {
         background-image: url("images/our-products2.png") !important;
         position: relative;
-        height: 30%;
-        background-size: 900px;
+        height: 40%;
+        background-size: 1000px;
         background-position: center top;
     }
 
