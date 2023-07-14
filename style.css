@@ -42,9 +42,168 @@ body {
     width: 20%;
 }
 
+.advert-overlay {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20000;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    min-height: 500px;
+}
+
+.advert-container {
+    display: block;
+}
+
+.afripet2 {
+    display: none;
+}
+
+.advert-img {
+    position: relative;
+    height: auto;
+    width: 100%;
+    height: 80vh;
+}
+
+.advert-overlay .close {
+    position: absolute;
+    width: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/*For screens with a max-width of 1899px and min-width of 1600px*/
+@media(max-width: 1899px) and (min-width: 1600px) {
+    .advert-img {
+        height: 70vh;
+        object-fit: cover;
+    }
+}
+
+/*For screens with a max-width of 1599px and min-width of 1400px*/
+@media(max-width: 1599px) and (min-width: 1400px) {
+    .advert-img {
+        height: 70vh;
+        object-fit: cover;
+    }
+}
+
+/*For screens with a max-width of 1399px and min-width of 1281px*/
+@media(max-width: 1399px) and (min-width: 1281px) {
+    .advert-img {
+        height: 70vh;
+        object-fit: cover;
+    }
+
+    .advert-overlay .close {
+        width: 30px;
+    }
+}
+
+/*For screens with a max-width of 1280px and min-width of 1150px*/
+@media(max-width: 1280px) and (min-width: 1150px) {
+    .advert-img {
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .advert-overlay .close {
+        width: 30px;
+    }
+}
+
+/*For screens with a max-width of 1149px and min-width of 984px*/
+@media(max-width: 1149px) and (min-width: 984px) {
+    .advert-img {
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    .advert-overlay .close {
+        width: 30px;
+    }
+}
+
+/*For screens with a max-width of 983px and min-width of 700px*/
+@media(max-width: 983px) and (min-width: 700px) {
+    .advert-img {
+        height: 35vh;
+        object-fit: cover;
+    }
+
+    .advert-overlay .close {
+        width: 30px;
+    }
+}
+
+/*For screens with a max-width of 699px and min-width of 500px*/
+@media(max-width: 699px) and (min-width: 500px) {
+    .afripet1 {
+        display: none;
+    }
+
+    .afripet2 {
+        display:inline;
+    }
+
+    .advert-img {
+        height: 70vh;
+    }
+
+    .advert-overlay .close {
+        width: 30px;
+    }
+}
+
+/*For screens with a max-width of 499px and min-width of 400px*/
+@media(max-width: 499px) and (min-width: 400px) {
+    .afripet1 {
+        display: none;
+    }
+
+    .afripet2 {
+        display:inline;
+    }
+
+    .advert-img {
+        height: 50vh;
+    }
+
+    .advert-overlay .close {
+        width: 20px;
+        margin-left: 10px;
+    }
+}
+
+/*For screens with a max-width of 399px and min-width of 280px*/
+@media(max-width: 399px) and (min-width: 280px) {
+    .afripet1 {
+        display: none;
+    }
+
+    .afripet2 {
+        display:inline;
+    }
+
+    .advert-img {
+        height: 40vh;
+    }
+
+    .advert-overlay .close {
+        width: 20px;
+        margin-left: 10px;
+    }
+}
+
 a {
     text-decoration: none !important;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 li {
@@ -15355,6 +15514,16 @@ form button:focus {
     width: 47%;
 }
 
+.blog-content a {
+    color: #000000;
+    cursor: pointer !important;
+    transition: all 0.5s ease;
+}
+
+.blog-content a:hover {
+    color: #03b5d2;
+}
+
 .blog-content h2 {
     font-family: 'Zilla Slab', sans-serif;
     font-weight: 300;
@@ -15442,6 +15611,16 @@ form button:focus {
 .other-blog-card {
     width: 30%;
     margin-bottom: 50px;
+}
+
+.other-blog-card a {
+    color: #000000;
+    cursor: pointer !important;
+    transition: all 0.5s ease;
+}
+
+.other-blog-card a:hover {
+    color: #03b5d2;
 }
 
 .other-blog-card:last-child {
