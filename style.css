@@ -181,8 +181,28 @@ body {
     }
 }
 
-/*For screens with a max-width of 399px and min-width of 280px*/
-@media(max-width: 399px) and (min-width: 280px) {
+/*For screens with a max-width of 399px and min-width of 350px*/
+@media(max-width: 399px) and (min-width: 350px) {
+    .afripet1 {
+        display: none;
+    }
+
+    .afripet2 {
+        display:inline;
+    }
+
+    .advert-img {
+        height: 50vh;
+    }
+
+    .advert-overlay .close {
+        width: 20px;
+        margin-left: 10px;
+    }
+}
+
+/*For screens with a max-width of 349px and min-width of 280px*/
+@media(max-width: 349px) and (min-width: 280px) {
     .afripet1 {
         display: none;
     }
