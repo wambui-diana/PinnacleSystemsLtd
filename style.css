@@ -61,7 +61,7 @@ body {
 }
 
 .afripet2 {
-    display: none;
+    display: none !important;
 }
 
 .advert-img {
@@ -145,79 +145,80 @@ body {
 /*For screens with a max-width of 699px and min-width of 500px*/
 @media(max-width: 699px) and (min-width: 500px) {
     .afripet1 {
-        display: none;
+        display: none !important;
     }
 
     .afripet2 {
-        display:inline;
+        display: inline !important;
     }
 
     .advert-img {
-        height: 70vh;
+        height: 70vh !important;
     }
 
     .advert-overlay .close {
-        width: 30px;
+        width: 30px !important;
+        margin-left: 10px !important;
     }
 }
 
 /*For screens with a max-width of 499px and min-width of 400px*/
 @media(max-width: 499px) and (min-width: 400px) {
     .afripet1 {
-        display: none;
+        display: none !important;
     }
 
     .afripet2 {
-        display:inline;
+        display: inline !important;
     }
 
     .advert-img {
-        height: 50vh;
+        height: 50vh !important;
     }
 
     .advert-overlay .close {
-        width: 20px;
-        margin-left: 10px;
+        width: 20px !important;
+        margin-left: 10px !important;
     }
 }
 
 /*For screens with a max-width of 399px and min-width of 350px*/
 @media(max-width: 399px) and (min-width: 350px) {
     .afripet1 {
-        display: none;
+        display: none !important;
     }
 
     .afripet2 {
-        display:inline;
+        display: inline !important;
     }
 
     .advert-img {
-        height: 50vh;
+        height: 50vh !important;
     }
 
     .advert-overlay .close {
-        width: 20px;
-        margin-left: 10px;
+        width: 20px !important;
+        margin-left: 10px !important;
     }
 }
 
 /*For screens with a max-width of 349px and min-width of 280px*/
 @media(max-width: 349px) and (min-width: 280px) {
     .afripet1 {
-        display: none;
+        display: none !important;
     }
 
     .afripet2 {
-        display:inline;
+        display: inline !important;
     }
 
     .advert-img {
-        height: 40vh;
+        height: 40vh !important;
     }
 
     .advert-overlay .close {
-        width: 20px;
-        margin-left: 10px;
+        width: 20px !important;
+        margin-left: 10px !important;
     }
 }
 
