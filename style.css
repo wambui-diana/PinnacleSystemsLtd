@@ -8307,6 +8307,10 @@ form button:focus {
     height: 280px;
 }
 
+.life-saver {
+    object-fit: cover;
+}
+
 .card-info {
     position: relative;
     margin-top: 80px;
