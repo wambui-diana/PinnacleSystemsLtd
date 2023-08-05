@@ -370,6 +370,7 @@ nav {
     color: #03b5d2;
 }
 
+
 .dropdown-link {
     display: flex;
     align-items: center;
@@ -475,6 +476,7 @@ nav {
     font-size: 20px;
     text-transform: uppercase;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .header-megamenu h3:hover {
@@ -492,10 +494,10 @@ nav {
     border: none;
     background-color: #191970;
     color: #fff;
-    margin: 70px 0 0 10px;
+    margin: 0px 0 0 10px;
     padding: 0;
-    height: 68px;
-    width: 270px;
+    height: 58px;
+    width: 280px;
     font-size: 16px;
     outline: none;
     overflow: hidden;
@@ -621,7 +623,7 @@ nav {
     }
 
     .contbtn {
-        margin: 20px 0 0 10px;
+        margin: 3px 0 0 10px;
     }
 
     .ind-title {
@@ -630,6 +632,13 @@ nav {
 
     #preloader img {
         width: 20%;
+    }
+}
+
+/*For screens with a max-width of 1899px and min-width of 1600px*/
+@media(max-width: 1899px) and (min-width: 1763px) {
+    .fleet {
+        margin-top: 0px !important;
     }
 }
 
@@ -680,7 +689,7 @@ nav {
     }
 
     .contbtn {
-        margin: 10px 0 0 10px;
+        margin: 3px 0 0 10px;
     }
 
     .ind-title {
@@ -780,7 +789,7 @@ nav {
     }
 
     .contbtn {
-        margin: 67px 0 0 10px;
+        margin: 0px 0 0 10px;
     }
 
     .ind-title {
@@ -795,7 +804,7 @@ nav {
 /*For screens with a max-width of 1399px and min-width of 1329px*/
 @media(max-width: 1399px) and (min-width: 1329px) {
     .contbtn {
-        margin: 10px 0 0 10px;
+        margin: 3px 0 0 10px;
     }
 
     .canvas {
@@ -805,6 +814,13 @@ nav {
     .security {
         border-right: none !important;
         margin-top: 0px !important;
+    }
+}
+
+/*For screens with a max-width of 1328px and min-width of 1281px*/
+@media(max-width: 1328px) and (min-width: 1281px) {
+    .contbtn {
+        margin: 0px 0 0 10px;
     }
 }
 
@@ -910,7 +926,7 @@ nav {
     }
 
     .contbtn {
-        margin: 67px 0 0 10px;
+        margin: 0px 0 0 10px;
     }
 
     .ind-title {
@@ -1028,7 +1044,7 @@ nav {
     }
 
     .contbtn {
-        margin: 67px 0 0 10px;
+        margin: 0px 0 0 10px;
     }
 
     .ind-title {
@@ -1145,7 +1161,7 @@ nav {
     }
 
     .contbtn {
-        margin: 67px 0 0 10px;
+        margin: 0px 0 0 10px;
     }
 
     .ind-title {
@@ -1319,7 +1335,7 @@ nav {
     }
 
     .contbtn {
-        margin: 20px 0 0 0px;
+        margin: 0px 0 0 0px;
         padding: 0;
         height: 68px;
         width: 250px;
@@ -1396,6 +1412,7 @@ nav {
     .show {
         height: auto !important;
         transition: all 0.3s ease;
+        overflow: scroll !important;
     }
 
     .megamenu-item {
@@ -1520,7 +1537,7 @@ nav {
     }
 
     .contbtn {
-        margin: 20px 0 0 0px;
+        margin: 0px 0 0 0px;
         padding: 0;
         height: 60px;
         width: 200px;
@@ -8309,6 +8326,7 @@ form button:focus {
 
 .life-saver {
     object-fit: cover;
+    object-position: top;
 }
 
 .card-info {
