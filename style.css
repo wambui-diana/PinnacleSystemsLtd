@@ -15688,12 +15688,17 @@ form button:focus {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    cursor: pointer !important;
+}
+
+.other-blog-card-title h3 {
+    cursor: pointer !important;
 }
 
 .other-blog-card-title a {
     text-decoration: none;
     color: #000;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .other-blog-card-title a:hover {
@@ -15704,6 +15709,7 @@ form button:focus {
     width: 25px;
     height: 25px;
     transform: rotate(-40deg);
+    cursor: pointer !important;
 }
 
 .tags-container {
