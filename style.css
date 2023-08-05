@@ -15691,7 +15691,8 @@ form button:focus {
     cursor: pointer !important;
 }
 
-.other-blog-card-title h3 {
+.other-blog-card-title h3,
+.other-blog-card-title h2 {
     cursor: pointer !important;
 }
 
@@ -15709,6 +15710,10 @@ form button:focus {
     width: 25px;
     height: 25px;
     transform: rotate(-40deg);
+    cursor: pointer !important;
+}
+
+.other-blog-card-title, .angled-arrow {
     cursor: pointer !important;
 }
 
