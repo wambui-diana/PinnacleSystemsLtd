@@ -15875,6 +15875,10 @@ form button:focus {
     border-radius: 0px;
 }
 
+.afripet-img img {
+    object-fit: cover;
+}
+
 .share-hr {
     margin: 0 300px;
 }
