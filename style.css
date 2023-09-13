@@ -17131,6 +17131,10 @@ form button:focus {
         font-size: 27px; 
      }
 
+    .adv-title .adv-notice-text {
+        font-size: 14px;
+    }
+
     .adv-content {
         Width: auto !important;
     }
