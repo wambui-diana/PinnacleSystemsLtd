@@ -5816,7 +5816,7 @@ form button:focus {
 }
 
 .social-links {
-    margin: 30px 0 0 30px;
+    margin: 30px 0 0 20px;
 }
 
 .social-links a {
@@ -6168,6 +6168,10 @@ form button:focus {
     .footer-col ul li a {
         font-size: 16px;
     }
+
+    .social-links {
+        margin: 30px 0 0;
+    }
 }
 
 /*For screens with a max-width of 499px and min-width of 400px*/
@@ -6216,6 +6220,10 @@ form button:focus {
     .footer-col ul li a {
         font-size: 16px;
     }
+
+    .social-links {
+        margin: 30px 0 0;
+    }
 }
 
 /*For screens with a max-width of 399px and min-width of 280px*/
@@ -6263,6 +6271,10 @@ form button:focus {
 
     .footer-col ul li a {
         font-size: 14px;
+    }
+
+    .social-links {
+        margin: 30px 0 0;
     }
 }
 
