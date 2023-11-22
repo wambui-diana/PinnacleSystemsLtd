@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    user-select: none;
+    overflow: overlay;
     overflow-x: hidden !important;
     scroll-behavior: smooth !important;
 }
@@ -2375,6 +2375,10 @@ form button:focus {
 
 .kasikeu-img img {
     object-fit: cover !important;
+}
+
+.msa-launch img {
+    object-position: 40% 30% !important;
 }
 
 .cust-img {
@@ -6291,8 +6295,8 @@ form button:focus {
     display: flex;
     justify-content: center;
     border-radius: 50%;
-    border: 1px solid #fff;
-    cursor: pointer;
+    border: 2px solid #fff;
+    cursor: pointer !important;
     transition: all 0.5s ease;
     opacity: 0;
     pointer-events: none;
@@ -6308,6 +6312,10 @@ form button:focus {
 .scroll-top:hover {
     background-color: #03b5d2 !important;
     color: #fff;
+}
+
+.scroll-top .arrow-up {
+    cursor: pointer !important;
 }
 
 /*For screens with a max-width of 11899px and min-width of 1600px*/
@@ -8249,9 +8257,10 @@ form button:focus {
     text-decoration: none;
     color: #74858d;
     text-transform: uppercase;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .small-nav-menu a:hover {
@@ -15738,6 +15747,7 @@ form button:focus {
 .other-blog-card-title h3,
 .other-blog-card-title h2 {
     cursor: pointer !important;
+
 }
 
 .other-blog-card-title a {
@@ -15759,6 +15769,13 @@ form button:focus {
 
 .other-blog-card-title, .angled-arrow {
     cursor: pointer !important;
+}
+
+/*For screens with a max-width of 768px*/
+@media(max-width: 768px) {
+    .other-blog-card-title h2 {
+        font-size: 30px !important;
+    }
 }
 
 .tags-container {
@@ -15813,12 +15830,17 @@ form button:focus {
     height: 600px;
 }
 
+.fathers-img img {
+    object-position: 60% 30% !important;
+    object-fit: contain !important;
+    height: auto !important;
+}
+
 .main-blog-image {
     width: 50%;
     height: auto;
     border-radius: 30px;
 }
-
 
 .main-blog-image img {
     width: 100%;
@@ -15836,7 +15858,7 @@ form button:focus {
     font-weight: 300;
     font-size: 40px;
     margin-bottom: 20px;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 15px;
     border-left: 6px solid #03b5d2;
 }
 
@@ -15899,6 +15921,7 @@ form button:focus {
     height: 100%;
     margin-bottom: 8px;
     border-radius: 0px;
+    cursor: pointer;
 }
 
 .afripet-img img {
@@ -16638,14 +16661,21 @@ form button:focus {
     .main-blog-image img {
         width: 100%;
         max-height: 300px;
-        object-fit: cover;
         object-position: 100% 80%;
+    }
+
+    .msa-img img {
+        object-position: 40% 50% !important;
     }
 
     .main-blog-content {
         width: 100%;
         margin-bottom: 50px;
         height: auto !important;
+    }
+
+    .main-blog-content h2 {
+        font-size: 30px;
     }
 
     .gallery-container {
@@ -16849,8 +16879,11 @@ form button:focus {
     .main-blog-image img {
         width: 100%;
         max-height: 250px;
-        object-fit: cover;
         object-position: 100% 80%;
+    }
+
+    .msa-img img {
+        object-position: 0% 50% !important;
     }
 
     .main-blog-content {
