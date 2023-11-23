@@ -17236,7 +17236,7 @@ form button:focus {
     border: none;
     flex-grow: 1;
     background-color: #fff;
-    padding: 40px;
+    padding: 30px;
     border: 2px solid #c0c0c0;
 }
 
@@ -17248,7 +17248,7 @@ form button:focus {
     outline: none;
     border: none;
     flex-grow: 1;
-    padding: 40px;
+    padding: 30px;
     border: 2px solid #c0c0c0;
 }
 
@@ -17260,7 +17260,7 @@ form button:focus {
     outline: none;
     border: none;
     flex-grow: 1;
-    padding: 40px;
+    padding: 30px;
     border: 2px solid #c0c0c0;
 }
 
@@ -17272,13 +17272,15 @@ form button:focus {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: #000046;
     text-align: center;
     cursor: pointer;
-    width: auto;
-    font-size: 16px;
+    width: 100%;
+    font-size: 14px;
     margin: 5px 0 0;
     transition: 0.5s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .branch-location:hover {
