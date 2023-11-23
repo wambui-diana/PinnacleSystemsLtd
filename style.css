@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13897,7 +13898,7 @@ form button:focus {
 
 .contact-container-info h2 {
     font-family: 'Zilla Slab', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 30px;
     margin: 40px 0 20px;
     padding: 0;
@@ -17187,5 +17188,325 @@ form button:focus {
     .adv-content iframe {
         Width: 100%;
         height: 350px;
+    }
+}
+
+/*Branches*/
+.branch-container {
+    margin: 60px auto 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F9F9FC;
+}
+
+.branch-title-cont {
+    margin: 20px auto 20px;
+}
+
+.branch-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: 60px auto 0;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.branch-row h2 {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 400;
+}
+
+.branch-line:after {
+    content: '';
+    background: #03b5d2;
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px 0 0px 100px;
+}
+
+.branch-row .branch-col1 {
+    width: 33%;
+    width: 300px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 40px;
+    border: 2px solid #c0c0c0;
+}
+
+.branch-row .branch-col2 {
+    width: 33%;
+    width: 300px;
+    background-color: #fff;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    flex-grow: 1;
+    padding: 40px;
+    border: 2px solid #c0c0c0;
+}
+
+.branch-row .branch-col3 {
+    width: 33%;
+    width: 300px;
+    background-color: #fff;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    flex-grow: 1;
+    padding: 40px;
+    border: 2px solid #c0c0c0;
+}
+
+.branch-location {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    align-items: flex-end;
+    justify-content: flex-end;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    font-size: 16px;
+    margin: 5px 0 0;
+    transition: 0.5s ease;
+}
+
+.branch-location:hover {
+    background-color: #03b5d2;
+}
+
+/*For screens with a max-width of 1600px and min-width of 1281px*/
+@media(max-width: 1600px) and (min-width: 1281px) {
+    .branch-row {
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 100px 0;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2,
+    .branch-row .branch-col3 {
+        flex: 25%;
+    }
+}
+
+/*For screens with a max-width of 1280px and min-width of 1150px*/
+@media(max-width: 1280px) and (min-width: 1150px) {
+    .branch-row {
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 70px 0;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2,
+    .branch-row .branch-col3 {
+        flex: 25%;
+    }
+}
+
+/*For screens with a max-width of 1149px and min-width of 984px*/
+@media(max-width: 1149px) and (min-width: 984px) {
+    .branch-row {
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 50px 0;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2,
+    .branch-row .branch-col3 {
+        flex: 25%;
+    }
+}
+
+/*For screens with a max-width of 983px and min-width of 700px*/
+@media(max-width: 983px) and (min-width: 700px){
+    .branch-row {
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 50px 0;
+    }
+
+    .branch-line:after {
+        content: '';
+        background: #03b5d2;
+        width: 80px;
+        height: 4px;
+        border-radius: 5px;
+        display: block;
+        margin: 20px 0 0px 100px;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2,
+    .branch-row .branch-col3 {
+        flex: 100%;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2 {
+        margin-bottom: 30px;
+    }
+}
+
+/*For screens with a max-width of 699px and min-width of 500px*/
+@media(max-width: 699px) and (min-width: 500px) {
+    .branch-container {
+        margin: 0px auto 0;
+    }
+
+    .branch-row {
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 40px 0;
+    }
+    .branch-title-cont {
+        margin: 0;
+    }
+
+    .branch-title-cont h3 {
+        font-size: 35px;
+        margin-left: 40px;
+    }
+
+    .branch-line:after {
+        content: '';
+        background: #03b5d2;
+        width: 70px;
+        height: 4px;
+        border-radius: 5px;
+        display: block;
+        margin: 20px 0 0px 5px;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2,
+    .branch-row .branch-col3 {
+        flex: 100%;
+        padding: 30px;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2 {
+        margin-bottom: 30px;
+    }
+}
+
+/*For screens with a max-width of 499px and min-width of 400px*/
+@media(max-width: 499px) and (min-width: 400px) {
+    .container h6 {
+        font-size: 14px !important;
+    }
+
+    .branch-container {
+        margin: 0px auto 0;
+    }
+
+    .branch-row {
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 30px 0;
+    }
+
+    .branch-line:after {
+        content: '';
+        background: #03b5d2;
+        width: 80px;
+        height: 4px;
+        border-radius: 5px;
+        display: block;
+        margin: 20px 0 0px 5px;
+    }
+    
+    .branch-title-cont {
+        margin: 0;
+    }
+
+    .branch-title-cont h3 {
+        font-size: 35px;
+        margin-left: 30px;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2,
+    .branch-row .branch-col3 {
+        flex: 100%;
+        padding: 30px;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2 {
+        margin-bottom: 30px;
+    }
+}
+
+/*For screens with a max-width of 399px and min-width of 280px*/
+@media(max-width: 399px) and (min-width: 280px) {
+    .branch-container {
+        margin: 0px auto 0;
+    }
+
+    .branch-row {
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px 30px 0;
+    }
+    .branch-title-cont {
+        margin: 0;
+    }
+
+    .branch-title-cont h3 {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .branch-line:after {
+        content: '';
+        background: #03b5d2;
+        width: 60px;
+        height: 4px;
+        border-radius: 5px;
+        display: block;
+        margin: 20px 0 0px 5px;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2,
+    .branch-row .branch-col3 {
+        flex: 100%;
+        padding: 30px;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2 {
+        margin-bottom: 30px;
+    }
+
+    .branch-row .branch-col1,
+    .branch-row .branch-col2,
+    .branch-row .branch-col3 p {
+        font-size: 14px;
+    }
+
+    .branch-row .branch-location {
+        font-size: 14px;
     }
 }
