@@ -12522,9 +12522,10 @@ form button:focus {
 @media(max-width: 983px) and (min-width: 700px) {
     .container20 {
         position: relative;
-        width: auto;
-        height: 60%;
+        width: 100%;
+        height: auto;
         box-sizing: border-box;
+        background-position: 50% 0%;
     }
 
     .career-info h1 {
