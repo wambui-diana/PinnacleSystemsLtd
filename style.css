@@ -7472,7 +7472,7 @@ form button:focus {
 @media(max-width: 983px) and (min-width: 700px) {
     .container2 {
         position: relative;
-        height: 50%;
+        height: 50vh;
         background-size: 1300px;
         background-position: center top;
     }
@@ -7658,7 +7658,7 @@ form button:focus {
 @media(max-width: 699px) and (min-width: 500px) {
     .container2 {
         position: relative;
-        height: 40%;
+        height: 40vh;
         background-size: 1150px;
         background-position: center top;
     }
@@ -7843,9 +7843,10 @@ form button:focus {
 /*For screens with a max-width of 499px and min-width of 400px*/
 @media(max-width: 499px) and (min-width: 400px) {
     .container2 {
+        background-image: url("images/our-products2.png") !important;
         position: relative;
-        height: 40%;
-        background-size: 1100px;
+        height: 38vh;
+        background-size: 1000px;
         background-position: center top !important;
     }
 
@@ -8046,7 +8047,7 @@ form button:focus {
     .container2 {
         background-image: url("images/our-products2.png") !important;
         position: relative;
-        height: 40%;
+        height: 40vh;
         background-size: 1000px;
         background-position: center top;
     }
