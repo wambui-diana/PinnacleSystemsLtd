@@ -7880,7 +7880,7 @@ form button:focus {
 
     .about-us-col1 p {
         font-size: 14px;
-        margin: 0 30px 0 0;
+        margin: 0 30px 0 0 !important;
     }
 
     .row3 {
@@ -12735,10 +12735,6 @@ form button:focus {
         margin: 30px 20px 30px 25px;
     }
 
-    br {
-        display: none;
-    }
-
     .rec-icons {
         display: flex;
     }
@@ -13002,10 +12998,6 @@ form button:focus {
         display: block;
         width: auto;
         margin: 30px 20px 20px 20px;
-    }
-    
-    br {
-        display: none;
     }
 
     .rec-icons {
@@ -13281,10 +13273,6 @@ form button:focus {
         width: auto;
         margin: 30px 30px 20px 20px;
     }
-    
-    br {
-        display: none;
-    }
 
     .rec-icons {
         display: flex;
@@ -13556,10 +13544,6 @@ form button:focus {
         display: block;
         width: auto;
         margin: 30px 30px 20px 30px;
-    }
-    
-    br {
-        display: none;
     }
 
     .rec-icons {
