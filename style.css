@@ -12773,9 +12773,9 @@ form button:focus {
     .container20 {
         position: relative;
         width: auto;
-        height: 50%;
+        height: auto;
         box-sizing: border-box;
-        background-position: right center;
+        background-position: 100% 60%;
     }
 
     .career-info {
@@ -13042,9 +13042,9 @@ form button:focus {
     .container20 {
         position: relative;
         width: auto;
-        height: 50%;
+        height: auto;
         box-sizing: border-box;
-        background-position: center right;
+        background-position: 95% 60%;
     }
 
     .career-info {
