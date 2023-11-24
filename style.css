@@ -5848,7 +5848,7 @@ form button:focus {
 /*For screens with a max-width of 1899px and min-width of 1600px*/
 @media(max-width: 1899px) and (min-width: 1600px) {
     .container1 {
-        margin: 100px 100px 0;
+        margin: 80px 100px 0;
         width: auto;
     }
 
@@ -5861,7 +5861,7 @@ form button:focus {
         padding: 0;
     }
 
-    hr {
+    .footer hr {
         width: auto;
     }
 
@@ -5875,6 +5875,10 @@ form button:focus {
 
     .footer-text {
         font-size: 16px;
+    }
+
+    .footer-text:last-child {
+        margin-bottom: 40px;
     }
 
     .footer-col ul li a {
@@ -5885,7 +5889,7 @@ form button:focus {
 /*For screens with a max-width of 1599px and min-width of 1400px*/
 @media(max-width: 1599px) and (min-width: 1400px) {
     .container1 {
-        margin: 100px 100px 0;
+        margin: 60px 80px 0;
         width: auto;
     }
 
@@ -5898,7 +5902,7 @@ form button:focus {
         padding: 0;
     }
 
-    hr {
+    .footer hr {
         width: auto;
     }
 
@@ -5912,6 +5916,10 @@ form button:focus {
 
     .footer-text {
         font-size: 16px;
+    }
+
+    .footer-text:last-child {
+        margin-bottom: 30px;
     }
 
     .footer-col ul li a {
@@ -5922,7 +5930,7 @@ form button:focus {
 /*For screens with a max-width of 1399px and min-width of 1281px*/
 @media(max-width: 1399px) and (min-width: 1281px) {
     .container1 {
-        margin: 100px 40px 0;
+        margin: 60px 40px 0;
         width: auto;
     }
 
@@ -5946,7 +5954,7 @@ form button:focus {
         width: 30%;
     }
 
-    hr {
+    .footer hr {
         width: auto;
     }
 
@@ -5964,15 +5972,23 @@ form button:focus {
         width: 250px;
     }
 
+    .footer-text:last-child {
+        margin-bottom: 30px;
+    }
+
     .footer-col ul li a {
         font-size: 16px;
+    }
+
+    .links p {
+        margin-top: 40px;
     }
 }
 
 /*For screens with a max-width of 1280px and min-width of 1150px*/
 @media(max-width: 1280px) and (min-width: 1150px) {
     .container1 {
-        margin: 100px 0px 0 20px;
+        margin: 60px 30px 0;
         width: auto;
     }
 
@@ -5996,7 +6012,7 @@ form button:focus {
         width: 30%;
     }
 
-    hr {
+    .footer hr {
         width: auto;
     }
 
@@ -6014,15 +6030,23 @@ form button:focus {
         width: 250px;
     }
 
+    .footer-text:last-child {
+        margin-bottom: 10px;
+    }
+
     .footer-col ul li a {
         font-size: 16px;
+    }
+
+    .links p {
+        margin-top: 40px;
     }
 }
 
 /*For screens with a max-width of 1149px and min-width of 1024px*/
 @media(max-width: 1149px) and (min-width: 984px) {
     .container1 {
-        margin: 100px 60px 0;
+        margin: 50px 60px 0;
         width: auto;
     }
 
@@ -6048,7 +6072,7 @@ form button:focus {
         margin-top: 30px;
     }
 
-    hr {
+    .footer hr {
         width: auto;
     }
 
@@ -6066,15 +6090,23 @@ form button:focus {
         width: 250px;
     }
 
+    .footer-text:last-child {
+        margin-bottom: 10px;
+    }
+
     .footer-col ul li a {
         font-size: 16px;
+    }
+
+    .links p {
+        margin-top: 30px;
     }
 }
 
 /*For screens with a max-width of 983px and min-width of 700px*/
 @media(max-width: 983px) and (min-width: 700px) {
     .container1 {
-        margin: 100px 60px 0;
+        margin: 50px 60px 0;
         width: auto;
     }
 
@@ -6100,7 +6132,7 @@ form button:focus {
         margin-top: 30px;
     }
 
-    hr {
+    .footer hr {
         width: auto;
     }
 
@@ -6116,6 +6148,10 @@ form button:focus {
     .footer-text {
         font-size: 14px;
         width: 250px;
+    }
+
+    .footer-text:last-child {
+        margin-bottom: 5px;
     }
 
     .footer-col ul li a {
@@ -6124,6 +6160,7 @@ form button:focus {
 
     .links p {
         font-size: 14px;
+        margin-top: 30px;
     }
 }
 
@@ -6157,7 +6194,7 @@ form button:focus {
         margin-top: 30px;
     }
 
-    hr {
+    .footer hr {
         width: auto;
     }
 
@@ -6171,8 +6208,17 @@ form button:focus {
         width: auto;
     }
 
+    .footer-text:last-child {
+        margin-bottom: 5px;
+    }
+
     .footer-col ul li a {
         font-size: 16px;
+    }
+
+    .links p {
+        font-size: 15px;
+        margin-top: 30px;
     }
 
     .social-links {
@@ -6210,7 +6256,7 @@ form button:focus {
         margin-top: 30px;
     }
 
-    hr {
+    .footer hr {
         width: auto;
     }
 
@@ -6266,7 +6312,7 @@ form button:focus {
         margin-top: 30px;
     }
 
-    hr {
+    .footer hr {
         width: auto;
     }
 
