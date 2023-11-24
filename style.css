@@ -11221,7 +11221,7 @@ form button:focus {
 }
 
 .container14 {
-    margin: 150px 300px;
+    margin: 100px 300px;
 }
 
 .container14 h5 {
@@ -11233,74 +11233,59 @@ form button:focus {
 
 .row18 {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 1300px;
     margin: 80px auto;
-    align-items: center;
-    column-gap: 150px;
+    column-gap: 50px;
 }
 
-.row18 .process-col1 {
-    width: 33%;
-    width: 300px;
-    border-radius: 30px;
-    overflow: hidden;
-    outline: none;
-    border: none;
-    flex-grow: 1;
-    background-color: #F9F9FC;
-}
-
-.row18 .process-col2 {
-    width: 33%;
-    width: 300px;
-    background-color: #F9F9FC;
-    border-radius: 30px;
-    overflow: hidden;
-    outline: none;
-    border: none;
-    flex-grow: 1;
-}
-
+.row18 .process-col1,
+.row18 .process-col2,
 .row18 .process-col3 {
-    width: 33%;
-    width: 300px;
-    background-color: #F9F9FC;
+    flex: 25%;
     border-radius: 30px;
     overflow: hidden;
     outline: none;
     border: none;
-    flex-grow: 1;
+    background-color: #F9F9FC;
 }
 
 .row19 {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     width: 300px;
-    margin: 30px 10px 30px 30px;
-    align-items: flex-start;
+    margin: 30px 0 30px 30px;
+}
+
+.rec-icons {
+    display: flex;
 }
 
 .row19 .req-col1 {
-    width: 75%;
+    width: 90%;
 }
 
 .row19 .req-col2 {
-    margin-top: -30px;
-    width: 25%;
+    margin-top: 10px;
+    width: 10%;
 }
 
 .row18 h4 {
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
-    color:#191970;
+    margin-top: 0px;
+    font-family: 'Zilla Slab', sans-serif;
+    color:#000046;
 }
 
 .req-col2 p {
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    opacity: 15% !important;
+    opacity: 20% !important;
+}
+
+.req-img {
+    width: 80px;
 }
 
 /*For screens with a max-width of 1899px and min-width of 1600px*/
@@ -11513,7 +11498,7 @@ form button:focus {
     }
 
     .container14 {
-        margin: 100px auto 150px;
+        margin: 100px auto;
     }
     
     .container14 h5 {
@@ -11523,9 +11508,9 @@ form button:focus {
     
     .row18 {
         width: auto;
+        flex-direction: row;
         margin: 80px auto;
-        padding: 0 150px;
-        column-gap: 150px;
+        margin: 60px 150px 0;
     }
     
     .row18 .process-col1 {
@@ -11548,16 +11533,16 @@ form button:focus {
     
     .row19 {
         width: auto;
-        margin: 30px 10px 30px 30px;
+        margin: 30px 40px 30px 30px;
     }
     
     .row19 .req-col1 {
-        width: 75%;
+        width: 90%;
     }
     
     .row19 .req-col2 {
-        margin-top: -20px;
-        width: 25%;
+        margin-top: 10px;
+        width: 10%;
     }
     
     .row18 h4 {
@@ -11764,7 +11749,7 @@ form button:focus {
     }
 
     .container14 {
-        margin: 100px auto 150px;
+        margin: 80px auto;
     }
     
     .container14 h5 {
@@ -11774,41 +11759,28 @@ form button:focus {
     
     .row18 {
         width: auto;
-        margin: 80px auto;
-        padding: 0 150px;
-        column-gap: 80px;
+        flex-direction: row;
+        margin: 60px 150px 0;
     }
-    
-    .row18 .process-col1 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
-    }
-    
-    .row18 .process-col2 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
-    }
-    
+
+    .row18 .process-col1,
+    .row18 .process-col2,
     .row18 .process-col3 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
+        flex: 25%;
     }
     
     .row19 {
         width: auto;
-        margin: 30px 10px 30px 30px;
+        margin: 30px 40px 30px 30px;
     }
     
     .row19 .req-col1 {
-        width: 75%;
+        width: 90%;
     }
     
     .row19 .req-col2 {
-        margin-top: -20px;
-        width: 25%;
+        margin-top: 10px;
+        width: 10%;
     }
     
     .row18 h4 {
@@ -12016,7 +11988,7 @@ form button:focus {
     }
 
     .container14 {
-        margin: 100px auto 150px;
+        margin: 80px auto;
     }
     
     .container14 h5 {
@@ -12026,46 +11998,33 @@ form button:focus {
     
     .row18 {
         width: auto;
-        margin: 80px auto;
-        padding: 0 150px;
-        column-gap: 80px;
+        flex-direction: row;
+        margin: 60px 100px 0;
     }
     
-    .row18 .process-col1 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
-    }
-    
-    .row18 .process-col2 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
-    }
-    
+    .row18 .process-col1,
+    .row18 .process-col2,
     .row18 .process-col3 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
+        flex: 25%;
     }
     
     .row19 {
         width: auto;
-        margin: 30px 10px 30px 30px;
+        margin: 30px 40px 20px 30px;
     }
     
     .row19 .req-col1 {
-        width: 75%;
+        width: 90%;
     }
     
     .row19 .req-col2 {
-        margin-top: -20px;
-        width: 25%;
+        margin-top: 10px;
+        width: 10%;
     }
     
     .row18 h4 {
-        margin-top: 20px;
-        font-size: 18px;
+        margin-top: 10px;
+        font-size: 20px;
     }
 
     .row18 p {
@@ -12077,7 +12036,7 @@ form button:focus {
     }
 
     .req-img {
-        width: 50px;
+        width: 60px;
     }
 }
 
@@ -12267,7 +12226,7 @@ form button:focus {
     }
 
     .container14 {
-        margin: 100px auto 100px;
+        margin: 80px auto;
     }
     
     .container14 h5 {
@@ -12277,50 +12236,38 @@ form button:focus {
     
     .row18 {
         width: auto;
-        margin: 80px auto;
-        padding: 0 150px;
-        column-gap: 40px;
+        flex-direction: row;
+        margin: 60px 100px 0;
+        column-gap: 30px;
     }
     
-    .row18 .process-col1 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
-    }
-    
-    .row18 .process-col2 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
-    }
-    
+    .row18 .process-col1,
+    .row18 .process-col2,
     .row18 .process-col3 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
+        flex: 25%;
     }
     
     .row19 {
         width: auto;
-        margin: 30px 10px 30px 30px;
+        margin: 30px 40px 20px 25px;
     }
     
     .row19 .req-col1 {
-        width: 75%;
+        width: 90%;
     }
     
     .row19 .req-col2 {
-        margin-top: -20px;
-        width: 25%;
+        margin-top: 10px;
+        width: 10%;
     }
     
     .row18 h4 {
-        margin-top: 20px;
-        font-size: 18px;
+        margin-top: 10px;
+        font-size: 20px;
     }
 
     .row18 p {
-        font-size: 16px;
+        font-size: 15px;
     }
     
     .req-col2 p {
@@ -12328,7 +12275,7 @@ form button:focus {
     }
 
     .req-img {
-        width: 50px;
+        width: 60px;
     }
 }
 
@@ -12517,7 +12464,7 @@ form button:focus {
     }
 
     .container14 {
-        margin: 100px auto 100px;
+        margin: 60px auto ;
     }
     
     .container14 h5 {
@@ -12527,50 +12474,38 @@ form button:focus {
     
     .row18 {
         width: auto;
-        margin: 80px auto;
-        padding: 0 70px;
-        column-gap: 40px;
+        flex-direction: row;
+        margin: 60px 60px 0;
+        column-gap: 20px;
     }
     
-    .row18 .process-col1 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
-    }
-    
-    .row18 .process-col2 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
-    }
-    
+    .row18 .process-col1,
+    .row18 .process-col2,
     .row18 .process-col3 {
-        width: 33%;
-        width: 250px;
-        flex-grow: 1;
+        flex: 25%;
     }
     
     .row19 {
         width: auto;
-        margin: 30px 10px 30px 30px;
+        margin: 30px 40px 10px 20px;
     }
     
     .row19 .req-col1 {
-        width: 75%;
+        width: 90%;
     }
     
     .row19 .req-col2 {
-        margin-top: -20px;
-        width: 25%;
+        margin-top: 10px;
+        width: 10%;
     }
     
     .row18 h4 {
-        margin-top: 20px;
-        font-size: 18px;
+        margin-top: 10px;
+        font-size: 20px;
     }
 
     .row18 p {
-        font-size: 16px;
+        font-size: 15px;
     }
     
     .req-col2 p {
@@ -12578,7 +12513,7 @@ form button:focus {
     }
 
     .req-img {
-        width: 50px;
+        width: 60px;
     }
 }
 
@@ -12766,7 +12701,7 @@ form button:focus {
     }
 
     .container14 {
-        margin: 100px auto 50px;
+        margin: 50px auto;
     }
     
     .container14 h5 {
@@ -12775,47 +12710,48 @@ form button:focus {
     }
     
     .row18 {
-        width: 80%;
-        margin: 80px auto;
-        padding: 0 30px 0 0;
-        column-gap: 0px;
-        display: flow-root !important;
+        width: auto;
+        flex-direction: row;
+        margin: 60px 50px 0;
     }
     
-    .row18 .process-col1 {
-        width: 100%;
-        width: 260px;
-        margin: 0 30px 30px 0;
-    }
-    
-    .row18 .process-col2 {
-        width: 100%;
-        width: 260px;
-        margin: 0 30px 30px 0;
-    }
-    
+    .row18 .process-col1,
+    .row18 .process-col2,
     .row18 .process-col3 {
-        width: 100%;
-        width: 260px;
+        flex: 100%;
+    }
+
+    .row18 .process-col1,
+    .row18 .process-col2 {
+        margin-bottom: 30px;
     }
     
     .row19 {
+        display: block;
         width: auto;
-        margin: 30px 20px;
+        margin: 30px 20px 30px 25px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .rec-icons {
+        display: flex;
     }
     
     .row19 .req-col1 {
-        width: 75%;
+        width: 90%;
     }
     
     .row19 .req-col2 {
-        margin-top: -20px;
-        width: 25%;
+        margin-top: 10px;
+        width: 10%;
     }
     
     .row18 h4 {
-        margin-top: 20px;
-        font-size: 18px;
+        margin-top: 0px;
+        font-size: 20px;
     }
 
     .row18 p {
@@ -13034,7 +12970,7 @@ form button:focus {
     }
 
     .container14 {
-        margin: 100px auto 50px;
+        margin: 50px auto;
     }
     
     .container14 h5 {
@@ -13043,47 +12979,48 @@ form button:focus {
     }
     
     .row18 {
-        width: 80%;
-        margin: 80px auto;
-        padding: 0 30px 0 0;
-        column-gap: 30px;
-        display: flow-root;
+        width: auto;
+        flex-direction: row;
+        margin: 60px 40px 0;
     }
     
-    .row18 .process-col1 {
-        width: 100%;
-        width: 250px;
-        margin-bottom: 30px;
-    }
-    
-    .row18 .process-col2 {
-        width: 100%;
-        width: 250px;
-        margin-bottom: 30px;
-    }
-    
+    .row18 .process-col1,
+    .row18 .process-col2,
     .row18 .process-col3 {
-        width: 100%;
-        width: 250px;
+        flex: 100%;
+    }
+
+    .row18 .process-col1,
+    .row18 .process-col2 {
+        margin-bottom: 30px;
     }
     
     .row19 {
+        display: block;
         width: auto;
-        margin: 30px 20px;
+        margin: 30px 20px 20px 20px;
+    }
+    
+    br {
+        display: none;
+    }
+
+    .rec-icons {
+        display: flex;
     }
     
     .row19 .req-col1 {
-        width: 75%;
+        width: 90%;
     }
     
     .row19 .req-col2 {
-        margin-top: -20px;
-        width: 25%;
+        margin-top: 10px;
+        width: 10%;
     }
     
     .row18 h4 {
-        margin-top: 20px;
-        font-size: 18px;
+        margin-top: 0px;
+        font-size: 20px;
     }
 
     .row18 p {
@@ -13311,7 +13248,7 @@ form button:focus {
     }
 
     .container14 {
-        margin: 100px auto 50px;
+        margin: 50px auto;
     }
     
     .container14 h5 {
@@ -13320,47 +13257,48 @@ form button:focus {
     }
     
     .row18 {
-        width: 80%;
-        margin: 80px auto;
-        padding: 0 30px 0 0;
-        column-gap: 30px;
-        display: flow-root;
+        width: auto;
+        flex-direction: row;
+        margin: 40px 30px 0;
     }
     
-    .row18 .process-col1 {
-        width: 100%;
-        width: 250px;
-        margin-bottom: 30px;
-    }
-    
-    .row18 .process-col2 {
-        width: 100%;
-        width: 250px;
-        margin-bottom: 30px;
-    }
-    
+    .row18 .process-col1,
+    .row18 .process-col2,
     .row18 .process-col3 {
-        width: 100%;
-        width: 250px;
+        flex: 100%;
+    }
+
+    .row18 .process-col1,
+    .row18 .process-col2 {
+        margin-bottom: 30px;
     }
     
     .row19 {
+        display: block;
         width: auto;
-        margin: 30px 20px;
+        margin: 30px 30px 20px 20px;
+    }
+    
+    br {
+        display: none;
+    }
+
+    .rec-icons {
+        display: flex;
     }
     
     .row19 .req-col1 {
-        width: 75%;
+        width: 90%;
     }
     
     .row19 .req-col2 {
-        margin-top: -20px;
-        width: 25%;
+        margin-top: 10px;
+        width: 10%;
     }
     
     .row18 h4 {
-        margin-top: 20px;
-        font-size: 18px;
+        margin-top: 0px;
+        font-size: 20px;
     }
 
     .row18 p {
@@ -13585,7 +13523,7 @@ form button:focus {
     }
 
     .container14 {
-        margin: 100px auto 50px;
+        margin: 40px auto;
     }
     
     .container14 h5 {
@@ -13594,47 +13532,49 @@ form button:focus {
     }
     
     .row18 {
-        width: 80%;
-        margin: 40px auto;
-        padding: 0;
-        column-gap: 30px;
-        display: flow-root;
+        width: auto;
+        flex-direction: row;
+        margin: 40px 20px 0;
+        padding: 0 5px;
     }
     
-    .row18 .process-col1 {
-        width: 100%;
-        width: 220px;
-        margin-bottom: 30px;
-    }
-    
-    .row18 .process-col2 {
-        width: 100%;
-        width: 220px;
-        margin-bottom: 30px;
-    }
-    
+    .row18 .process-col1,
+    .row18 .process-col2,
     .row18 .process-col3 {
-        width: 100%;
-        width: 220px;
+        flex: 100%;
+    }
+
+    .row18 .process-col1,
+    .row18 .process-col2 {
+        margin-bottom: 30px;
     }
     
     .row19 {
+        display: block;
         width: auto;
-        margin: 30px 20px 30px;
+        margin: 30px 30px 20px 30px;
+    }
+    
+    br {
+        display: none;
+    }
+
+    .rec-icons {
+        display: flex;
     }
     
     .row19 .req-col1 {
-        width: 75%;
+        width: 90%;
     }
     
     .row19 .req-col2 {
-        margin-top: -20px;
-        width: 25%;
+        margin-top: 5px;
+        width: 10%;
     }
     
     .row18 h4 {
-        margin-top: 20px;
-        font-size: 16px;
+        margin-top: 0 !important;
+        font-size: 18px;
     }
 
     .row18 p {
@@ -13642,7 +13582,7 @@ form button:focus {
     }
     
     .req-col2 p {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .req-img {
