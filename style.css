@@ -17012,6 +17012,10 @@ form button:focus {
     font-size: 16px;
 }
 
+.adv-title a {
+    color: #03b5d2;
+}
+
 .adv-content {
     width: 60%;
     justify-content: center;
