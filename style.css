@@ -12772,7 +12772,7 @@ form button:focus {
 @media(max-width: 699px) and (min-width: 500px) {
     .container20 {
         position: relative;
-        width: auto;
+        width: 100%;
         height: auto;
         box-sizing: border-box;
         background-position: 100% 60%;
@@ -13041,7 +13041,7 @@ form button:focus {
 @media(max-width: 499px) and (min-width: 400px) {
     .container20 {
         position: relative;
-        width: auto;
+        width: 100%;
         height: auto;
         box-sizing: border-box;
         background-position: 95% 60%;
@@ -13319,7 +13319,7 @@ form button:focus {
 @media(max-width: 399px) and (min-width: 280px) {
     .container20 {
         position: relative;
-        width: auto;
+        width: 100%;
         height: auto;
         box-sizing: border-box;
         background-position: 90% 60%;
