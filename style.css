@@ -2437,6 +2437,8 @@ form button:focus {
     color: #fff;
     transition: all 0.5s ease 0s;
     font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .recent-info-btn:hover {
@@ -8442,11 +8444,15 @@ form button:focus {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: #000046;
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    font-size: 14px;
+    transform: all 0.5s ease !important;
+    font-family: 'Poppins' sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
   
 .prod-card button:hover {
@@ -8612,19 +8618,20 @@ form button:focus {
 
 .prod-btn {
     border: none;
-    background-color: #000;
+    background-color: #000046;
     margin: 10px 0 20px 0;
     padding: 12px 30px;
     height: 60px;
-    width: 150px;
-    box-shadow: 2px 4px 16px rgba(25,25,112,.5);
-    font-size: 16px;
+    width: auto;
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
     color: #fff;
     transition: all 0.5s ease 0s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .prod-btn:hover {
@@ -15629,13 +15636,16 @@ form button:focus {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: #000046;
     text-align: center;
     cursor: pointer;
-    width: 20%;
-    font-size: 16px;
+    width: auto;
+    font-size: 13px;
     margin: 5px 0 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
     transition: 0.5s ease;
+    letter-spacing: 2px;
 }
 
 .blog-content-button:hover {
