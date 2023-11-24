@@ -6219,12 +6219,16 @@ form button:focus {
     }
 
     .footer-text {
-        font-size: 16px;
+        font-size: 14px;
         width: auto;
     }
 
     .footer-col ul li a {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .links p {
+        font-size: 14px;
     }
 
     .social-links {
