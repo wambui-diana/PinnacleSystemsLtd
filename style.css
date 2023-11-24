@@ -10905,7 +10905,8 @@ form button:focus {
 
 .container20 {
     background-image: url("images/career4.jpg");
-    height: 60vh; 
+    height: 60vh;
+    width: auto;
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
@@ -13319,9 +13320,9 @@ form button:focus {
     .container20 {
         position: relative;
         width: auto;
-        height: 50%;
+        height: auto;
         box-sizing: border-box;
-        background-position: right;
+        background-position: 90% 60%;
     }
     .career-info {
         padding: 130px 0;
