@@ -10729,7 +10729,7 @@ form button:focus {
     .prod-cont-desc {
         width: auto;
         height: auto;
-        margin: 50px 0 30px;
+        margin: 50px 0 0px;
     }
     
     .prod-content {
