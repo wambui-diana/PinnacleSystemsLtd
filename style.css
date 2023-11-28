@@ -2091,13 +2091,14 @@ nav {
 /*------Services-----*/
 .container21 {
     background-image: url("images/services.jpg");
-    min-height: 60vh; 
+    height: auto; 
     width: auto;
     position: relative;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
     margin: 100px 0 0;
 }
@@ -2517,7 +2518,6 @@ form button:focus {
     /*------Services-----*/
     .container21 {
         position: relative;
-        min-height: 60vh; 
         margin: 100px 0 0;
     }
 
@@ -2816,7 +2816,6 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        min-height: 60vh; 
         margin: 100px 0 0;
     }
 
@@ -3118,7 +3117,6 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        min-height: 60vh; 
         margin: 100px 0 0;
     }
 
@@ -3421,7 +3419,6 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        min-height: 60vh;
         margin: 100px 0 0;
     }
 
@@ -3734,7 +3731,6 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        height: 60%; 
         margin: 100px 0 0;
     }
 
@@ -4164,7 +4160,6 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        height: auto; 
         margin: 100px 0 0;
     }
 
@@ -4557,7 +4552,6 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        height: auto;
         margin: 50px 0 0;
     }
 
@@ -4936,7 +4930,6 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        height: auto;
         margin: 50px 0 0;
     }
 
@@ -5368,7 +5361,6 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        height: auto;
         margin: 50px 0 0;
     }
 
@@ -5430,7 +5422,7 @@ form button:focus {
     }
 
     .services-content .button1 {
-        border: 3px solid #fff;
+        border: 2px solid #fff;
         background: none !important;
         margin: 50px 0 0;
         padding: 12px 30px;
