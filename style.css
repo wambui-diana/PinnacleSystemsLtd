@@ -15751,6 +15751,13 @@ form button:focus {
     }
 }
 
+/*For screens with a max-width of 399px and min-width of 280px*/
+@media(max-width: 399px) and (min-width: 280px) {
+    .other-blog-card-title h2 {
+        font-size: 28px !important;
+    }
+}
+
 .tags-container {
     display: flex;
 }
