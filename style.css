@@ -12310,7 +12310,7 @@ form button:focus {
 
     .about-us-col1 {
         width: 100%;
-        margin: 0 0px 0 0;
+        margin: 0;
     }
     
     .about-us-col1 h5 {
@@ -12318,12 +12318,17 @@ form button:focus {
     }
     
     .row2 .ft-300 {
-        font-size: 30px;
+        font-size: 25px;
+        margin-right: 30px;
+    }
+
+    .row2 .ft-300 br {
+        display: none;
     }
     
     .about-us-col2 {
         width: 100%;
-        padding: 50px 0 0;
+        padding: 30px 0 0;
         margin: 0 80px 0 10px;
     }
 
@@ -12556,12 +12561,17 @@ form button:focus {
     }
     
     .row2 .ft-300 {
-        font-size: 30px;
+        font-size: 25px;
+        margin-right: 30px;
+    }
+
+    .row2 .ft-300 br {
+        display: none;
     }
     
     .about-us-col2 {
         width: 100%;
-        padding: 50px 0 0;
+        padding: 30px 0 0;
         margin: 0 60px 0 10px;
     }
 
@@ -12811,6 +12821,10 @@ form button:focus {
         margin: 50px 30px 0;
     }
 
+    .container3 .about-us-col1 p {
+        margin: 0;
+    }
+
     .about-us-col1 {
         width: 100%;
         margin: 0;
@@ -12821,13 +12835,18 @@ form button:focus {
     }
     
     .row2 .ft-300 {
-        font-size: 30px;
+        font-size: 25px;
+        margin-right: 30px;
+    }
+
+    .row2 .ft-300 br {
+        display: none;
     }
     
     .about-us-col2 {
         width: 100%;
-        padding: 50px 0 0;
-        margin: 0 40px 0 10px;
+        padding: 30px 0 0;
+        margin: 0 10px;
     }
 
     .about-us-col2 p {
@@ -13095,12 +13114,17 @@ form button:focus {
     }
     
     .row2 .ft-300 {
-        font-size: 30px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .row2 .ft-300 br {
+        display: none;
     }
     
     .about-us-col2 {
         width: 100%;
-        padding: 40px 0 0;
+        padding: 30px 0 0;
         margin: 0 40px 0 10px;
     }
 
@@ -13368,7 +13392,12 @@ form button:focus {
     }
     
     .row2 .ft-300 {
-        font-size: 18px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .row2 .ft-300 br {
+        display: none;
     }
     
     .about-us-col2 {
@@ -14770,7 +14799,7 @@ form button:focus {
         display: block;
         flex-wrap: wrap;
         width: auto;
-        margin: 0 30px;
+        margin: 0 30px 30px;
         height: auto;
         align-items: left; 
     }
@@ -14795,6 +14824,10 @@ form button:focus {
     .accordion button {
         font-size: 16px;
         padding-right: 28px;
+    }
+
+    .accordion button .accordion-title {
+        font-size: 14px;
     }
 
     .accordion .accordion-content p {
