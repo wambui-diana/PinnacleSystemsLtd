@@ -2091,7 +2091,7 @@ nav {
 /*------Services-----*/
 .container21 {
     background-image: url("images/services.jpg");
-    height: auto; 
+    height: 100%; 
     width: auto;
     position: relative;
     background-attachment: fixed !important;
