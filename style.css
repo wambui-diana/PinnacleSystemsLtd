@@ -10609,6 +10609,10 @@ form button:focus {
         margin-top: 30px;
     }
 
+    .contact-info p {
+        font-size: 14px;
+    }
+
     .faq-contact-info {
         margin: 0;
         padding: 50px 30px;
@@ -13649,10 +13653,11 @@ form button:focus {
 }
 
 .faq-col1 button {
-    background-color: #fff; /* Green */
+    background-color: #fff;
+    font-family: 'Zilla Slab', sans-serif;
     border: none;
-    border-radius: 50px;
     color: #191970;
+    border-radius: 50px;
     width: 250px;
     padding: 16px 32px;
     text-align: center;
@@ -13735,6 +13740,9 @@ form button:focus {
 
 .accordion button .accordion-title {
     padding: 1em 1.5em 1em 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer !important;
 }
 
 .accordion button .icon2 {
@@ -14311,7 +14319,7 @@ form button:focus {
         width: auto;
         margin: 20px auto;
         display: inline-block;
-        font-size: 16px;
+        font-size: 18px;
     }  
     
     .accordion button {
@@ -14549,7 +14557,7 @@ form button:focus {
         width: auto;
         margin: 20px auto;
         display: inline-block;
-        font-size: 16px;
+        font-size: 18px;
     }  
     
     .accordion button {
@@ -14634,6 +14642,7 @@ form button:focus {
     }
 
     .faq-col1 {
+        flex-direction: row;
         width: 100%;
         display: inline-block;
     }
@@ -14646,7 +14655,7 @@ form button:focus {
         width: auto;
         margin: 20px auto;
         display: inline-block;
-        font-size: 16px;
+        font-size: 18px;
         padding: 12px 32px;
     }  
     
@@ -14758,19 +14767,17 @@ form button:focus {
     }
     
     .row20 {
-        display: flex;
+        display: block;
         flex-wrap: wrap;
         width: auto;
         margin: 0 30px;
         height: auto;
-        align-items: left;
-        
+        align-items: left; 
     }
 
     .faq-col1 {
-        width: 100%;
+        width: auto;
         display: block;
-        justify-content: left;
     }
 
     .faq-col2 {
@@ -14778,10 +14785,11 @@ form button:focus {
     }
 
     .faq-col1 button {
-        width: 140px;
-        margin: 20px auto;
+        width: 165px;
+        margin: 20px 0;
         display: inline-block;
-        font-size: 16px;
+        font-size: 17px;
+        padding: 16px 10px;
     }  
     
     .accordion button {
@@ -14886,23 +14894,23 @@ form button:focus {
     }
 
     .container16 {
-        margin: 0 0 20px;
-        padding: 20px;
+        margin: 0 0 0px;
+        padding: 0px;
         width: auto;
     }
     
     .row20 {
-        display: flex;
+        display: block;
         flex-wrap: wrap;
-        width: 300px;
-        margin: 0 auto;
+        width: auto;
+        margin: 0 30px 40px;
         height: auto;
         align-items: left;
         
     }
 
     .faq-col1 {
-        width: 100%;
+        width: auto;
         display: block;
         justify-content: left;
     }
@@ -14912,11 +14920,16 @@ form button:focus {
     }
 
     .faq-col1 button {
-        width: 130px;
-        margin: 20px auto;
+        width: 165px;
+        margin: 20px 0;
         display: inline-block;
+        font-size: 15px;
+        padding: 16px 10px;
+    } 
+    
+    .accordion button .accordion-title {
         font-size: 14px;
-    }  
+    }
     
     .accordion button {
         font-size: 14px;
@@ -15053,15 +15066,20 @@ form button:focus {
     }
 
     .faq-col1 button {
-        width: 120px;
-        margin: 20px auto;
+        width: 140px;
+        margin: 20px 0;
         display: inline-block;
-        font-size: 14px;
+        font-size: 15px;
+        padding: 16px 10px;
     }  
     
     .accordion button {
         font-size: 14px;
         padding-right: 30px;
+    }
+
+    .accordion button .accordion-title {
+        font-size: 14px;
     }
 
     .accordion .accordion-content p {
