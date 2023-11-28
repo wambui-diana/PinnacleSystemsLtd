@@ -326,6 +326,7 @@ nav {
 
 .logo img {
     width: 130px;
+    cursor: pointer;
 }
 
 .toggle-menu img,
@@ -1607,6 +1608,7 @@ nav {
   .slide-btn .btn-inner {
     position: relative;
     z-index: 2;
+    cursor: pointer;
   }
   .slide-btn:hover {
     color: #373737 !important;
@@ -1783,12 +1785,14 @@ nav {
   }
   .slideshow .arrows .prev {
     left: 30px;
+    cursor: pointer;
   }
   .slideshow .arrows .prev:hover .svg {
     left: -10px;
   }
   .slideshow .arrows .next {
     right: 30px;
+    cursor: pointer;
   }
   .slideshow .arrows .next:hover .svg {
     left: 10px;
@@ -2140,6 +2144,10 @@ nav {
     flex-grow: 1;
 }
 
+.ind-categories-col h3:hover {
+    color: #03b5d2;
+}
+
 .ind-icon {
     width: 90px;
     background-image: linear-gradient(to bottom right, #1A2980, #26d0ce);
@@ -2158,6 +2166,8 @@ nav {
     margin: 20px 0 10px;
     font-family: 'Zilla Slab', sans-serif;
     text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
 
 .ind-categories-col p {
@@ -2430,7 +2440,7 @@ form button:focus {
 .recent-info-btn {
     background-color: #000046;
     border: none !important;
-    margin: 10px 0 0;
+    margin: 10px 0;
     padding: 12px 30px;
     height: 50px;
     width: auto;
@@ -8390,7 +8400,7 @@ form button:focus {
     cursor: pointer;
     width: 100%;
     font-size: 14px;
-    transform: all 0.5s ease !important;
+    transition: 0.5s ease;
     font-family: 'Poppins' sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -15618,7 +15628,7 @@ form button:focus {
     align-items: flex-end;
     justify-content: flex-end;
     outline: 0;
-    padding: 12px;
+    padding: 12px 30px;
     color: white;
     background-color: #000046;
     text-align: center;
@@ -16080,7 +16090,6 @@ form button:focus {
     }
 
     .blog-content-button {
-        width: 30%;
         margin: 8px 0 0;
     }
 
@@ -16089,12 +16098,11 @@ form button:focus {
     }
 
     .other-blogs-row {
-        display: flex;
         column-gap: 30px;
     }
 
     .other-blog-card {
-        width: 32.5%;
+        width: 30%;
     }
 
     .other-blog-card img {
@@ -16183,7 +16191,7 @@ form button:focus {
     }
 
     .other-blog-card {
-        width: 32.5%;
+        width: 30%;
     }
 
     .other-blog-card img {
@@ -16427,7 +16435,6 @@ form button:focus {
 
     .blog-content-button {
         margin: 10px 0 0;
-        width: 40%;
     }
 
     .other-blogs-container {
@@ -16572,7 +16579,6 @@ form button:focus {
 
     .blog-content-button {
         margin: 10px 0 0;
-        width: 40%;
     }
 
     .other-blogs-container {
@@ -16764,8 +16770,6 @@ form button:focus {
 
     .blog-content-button {
         margin: 10px 0 0;
-        width: 50%;
-        font-size: 14px;
     }
 
     .other-blogs-container {
