@@ -2091,7 +2091,9 @@ nav {
 /*------Services-----*/
 .container21 {
     background-image: url("images/services.jpg");
-    min-height: 600px; 
+    min-height: 60vh; 
+    width: auto;
+    position: relative;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -2514,13 +2516,8 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        background-image: url("images/services.jpg");
-        min-height: 600px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
+        position: relative;
+        min-height: 60vh; 
         margin: 100px 0 0;
     }
 
@@ -2819,13 +2816,7 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        background-image: url("images/services.jpg");
-        min-height: 600px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
+        min-height: 60vh; 
         margin: 100px 0 0;
     }
 
@@ -3127,13 +3118,7 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        background-image: url("images/services.jpg");
-        min-height: 600px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
+        min-height: 60vh; 
         margin: 100px 0 0;
     }
 
@@ -3436,13 +3421,7 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        background-image: url("images/services.jpg");
-        min-height: 600px; 
-        background-attachment: fixed !important;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
+        min-height: 60vh;
         margin: 100px 0 0;
     }
 
@@ -3755,13 +3734,7 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        background-image: url("images/services.jpg");
-        min-height: 600px; 
-        background-attachment: fixed !important;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
+        height: 60%; 
         margin: 100px 0 0;
     }
 
@@ -4191,13 +4164,7 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        background-image: url("images/services.jpg");
-        min-height: 1000px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
+        height: auto; 
         margin: 100px 0 0;
     }
 
@@ -4590,14 +4557,8 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        background-image: url("images/services.jpg");
-        min-height: 1000px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
-        margin: 100px 0 0;
+        height: auto;
+        margin: 50px 0 0;
     }
 
     .services-content {
@@ -4975,14 +4936,8 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        background-image: url("images/services.jpg");
-        min-height: 1000px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
-        margin: 100px 0 0;
+        height: auto;
+        margin: 50px 0 0;
     }
 
     .services-content {
@@ -5413,13 +5368,7 @@ form button:focus {
 
     /*------Services-----*/
     .container21 {
-        background-image: url("images/services.jpg");
-        min-height: 1000px; 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.6);
+        height: auto;
         margin: 50px 0 0;
     }
 
