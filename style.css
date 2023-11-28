@@ -14912,7 +14912,6 @@ form button:focus {
     .faq-col1 {
         width: auto;
         display: block;
-        justify-content: left;
     }
 
     .faq-col2 {
@@ -14920,10 +14919,10 @@ form button:focus {
     }
 
     .faq-col1 button {
-        width: 165px;
+        width: 145px;
         margin: 20px 0;
         display: inline-block;
-        font-size: 15px;
+        font-size: 16px;
         padding: 16px 10px;
     } 
     
@@ -14933,6 +14932,7 @@ form button:focus {
     
     .accordion button {
         font-size: 14px;
+        padding-right: 20px;
     }
 
     .accordion .accordion-content p {
