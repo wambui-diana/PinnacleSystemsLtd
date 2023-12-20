@@ -15695,7 +15695,6 @@ form button:focus {
 
 .customer img{
     object-fit: cover;
-    object-position: 100% 20%;
 }
 
 .iron-img {
@@ -15730,7 +15729,10 @@ form button:focus {
 .other-blog-card-title h3,
 .other-blog-card-title h2 {
     cursor: pointer !important;
+}
 
+.other-blog-card-title h3 {
+    font-weight: 400;
 }
 
 .other-blog-card-title a {
