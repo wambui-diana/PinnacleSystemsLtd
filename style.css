@@ -1856,6 +1856,10 @@ nav {
     .slideshow .arrows .next:hover .svg {
         left: 10px;
     }
+
+    .why-us-text p {
+        font-size: 14px;
+    }
 }
 
 @media(max-width: 399px) and (min-width: 280px) {
@@ -4991,6 +4995,7 @@ form button:focus {
     .ind-categories-col p {
         color: #A9A9A9;
         text-align: left;
+        font-size: 14px;
     }
 
     .ind-button {
@@ -5013,6 +5018,10 @@ form button:focus {
 
     .button1:active {
         background: #03b5d2 !important;
+    }
+
+    .testimonial-card p {
+        font-size: 14px;
     }
 
     /*----Accreditations---*/
@@ -5038,6 +5047,7 @@ form button:focus {
     .container23-intro-text p {
         text-align: left;
         margin: 40px 30px 20px;
+        font-size: 14px;
     }
 
     .accred-content {
@@ -5060,6 +5070,10 @@ form button:focus {
         padding: 0;
         width: 270px;
         text-align: left;
+    }
+
+    .accred-col p {
+        font-size: 14px;
     }
 
     .accred-logo-cont {
@@ -5100,6 +5114,10 @@ form button:focus {
     .container {
         margin: 0 !important;
         padding: 20px !important;
+    }
+
+    .appointment p {
+        font-size: 14px;
     }
 
     /*---Recent Posts---*/
@@ -5162,6 +5180,10 @@ form button:focus {
         font-size: 26px; 
         text-align: left;
         margin: 20px 0;
+    }
+
+    .recent-info p {
+        font-size: 14px;
     }
 
     .date-container {
@@ -5610,7 +5632,7 @@ form button:focus {
     }
 
     .recent-info h2 {
-        font-size: 20px; 
+        font-size: 24px; 
         text-align: left;
         margin: 20px 0;
     }
