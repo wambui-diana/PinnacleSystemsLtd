@@ -17143,10 +17143,14 @@ form button:focus {
 
     .adv-title h1 {
         font-size: 28px; 
-     }
+    }
 
     .adv-content {
         Width: auto !important;
+    }
+
+    .adv-title .adv-notice-text {
+        font-size: 14px;
     }
 
     .adv-content iframe {
