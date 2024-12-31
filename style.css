@@ -5683,7 +5683,7 @@ form button:focus {
 
 /*-----Footer-----*/
 .container1 {
-    margin: 100px 200px 0;
+    margin: 100px 300px 0;
 }
 
 .footer {
@@ -5706,7 +5706,7 @@ form button:focus {
 }
 
 .footer-col:nth-child(2) {
-    width: 20%;
+    width: 25%;
 }
 
 .footer-col:nth-child(3) {
@@ -5714,13 +5714,13 @@ form button:focus {
 }
 
 .footer-col:last-child {
-    width: 30%;
+    width: 25%;
 }
 
 .footer-logo {
     margin-top: 40px;
     cursor: pointer;
-    width: 45%;
+    width: 60%;
 }
 
 .footer-logo img {
