@@ -15,6 +15,7 @@
 
 p {
     font-family: 'Jost', sans-serif !important;
+    font-size: 17px !important;
 }
 
 html {
@@ -506,7 +507,7 @@ nav {
     overflow: hidden;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Zilla Slab', sans-serif;
+    font-family: 'Jost', sans-serif;
     cursor: pointer;
     letter-spacing: 2px;
     transition: all 0.5s ease 0s;
@@ -1887,8 +1888,18 @@ nav {
     }
 }
 
+.container-xxl h1,
+.container-xxl h2,
+.container-xxl h5 {
+    font-family: 'Jost', sans-serif;
+}
+
 .why-us-text p {
     text-align: justify;
+}
+
+.why-us-text h1 {
+    font-family: 'Zilla Slab', sans-serif;
 }
 
 
@@ -1994,7 +2005,7 @@ nav {
 }
 
 .testimonial-title h1 {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     font-weight: 300;
     font-size: 40px;
     padding: 0;
@@ -2006,6 +2017,7 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .testimonial-content {
@@ -2174,7 +2186,7 @@ nav {
 }
 
 .ind-categories-col p {
-    color: #A9A9A9;
+    color: #fff !important;
     text-align: center;
 }
 
@@ -2301,6 +2313,10 @@ nav {
 .appointment {
     background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(images/contact-content-img.jpg) center bottom no-repeat;
     background-size: cover;
+}
+
+.appointment h1 {
+    font-family: 'Zilla Slab', sans-serif;
 }
 
 .form-floating label {
@@ -4835,7 +4851,7 @@ form button:focus {
 
     .why-us-text .border-top h6 {
         font-size: 16px !important;
-}
+    }
 
     /*----Trusted By Great Teams----*/
     .container19 {
@@ -5218,7 +5234,11 @@ form button:focus {
         object-position: 50% 100%;
     }
 
-    .h-100 p {
+    .why-us-text .border-top h6 {
+        font-size: 16px !important;
+    }
+
+    .why-us-text .border-start h6 {
         font-size: 14px !important;
     }
 
@@ -5748,7 +5768,7 @@ form button:focus {
 
 .footer-col ul li a {
     font-family: 'Jost', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     color: #fff;
     text-decoration: none;
     font-weight: 300;
@@ -5784,12 +5804,13 @@ form button:focus {
 .links {
     text-align: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 300;
 }
 
 .links p {
     margin-top: 50px;
+    font-size: 14px !important;
 }
 
 .social-links {
@@ -5851,10 +5872,6 @@ form button:focus {
     .footer-text:last-child {
         margin-bottom: 40px;
     }
-
-    .footer-col ul li a {
-        font-size: 16px;
-    }
 }
 
 /*For screens with a max-width of 1599px and min-width of 1400px*/
@@ -5891,10 +5908,6 @@ form button:focus {
 
     .footer-text:last-child {
         margin-bottom: 30px;
-    }
-
-    .footer-col ul li a {
-        font-size: 16px;
     }
 }
 
@@ -5945,10 +5958,6 @@ form button:focus {
 
     .footer-text:last-child {
         margin-bottom: 30px;
-    }
-
-    .footer-col ul li a {
-        font-size: 16px;
     }
 
     .links p {
@@ -6003,10 +6012,6 @@ form button:focus {
 
     .footer-text:last-child {
         margin-bottom: 10px;
-    }
-
-    .footer-col ul li a {
-        font-size: 16px;
     }
 
     .links p {
@@ -6065,10 +6070,6 @@ form button:focus {
         margin-bottom: 10px;
     }
 
-    .footer-col ul li a {
-        font-size: 16px;
-    }
-
     .links p {
         margin-top: 30px;
     }
@@ -6125,10 +6126,6 @@ form button:focus {
         margin-bottom: 5px;
     }
 
-    .footer-col ul li a {
-        font-size: 14px;
-    }
-
     .links p {
         font-size: 14px;
         margin-top: 30px;
@@ -6181,10 +6178,6 @@ form button:focus {
 
     .footer-text:last-child {
         margin-bottom: 5px;
-    }
-
-    .footer-col ul li a {
-        font-size: 16px;
     }
 
     .links p {
@@ -6240,7 +6233,7 @@ form button:focus {
     }
 
     .links p {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     .social-links {
@@ -6290,10 +6283,6 @@ form button:focus {
     .footer-text {
         font-size: 14px;
         width: auto;
-    }
-
-    .footer-col ul li a {
-        font-size: 14px;
     }
 
     .social-links {
@@ -6735,7 +6724,7 @@ form button:focus {
 .more-us-col3 h5 {
     color:#273B8B;
     font-size: 25px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -17007,7 +16996,7 @@ form button:focus {
 }
 
 .adv-title h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     font-weight: 300;
     font-size: 40px;
     padding: 0;
@@ -17024,7 +17013,6 @@ form button:focus {
 
 .adv-title .adv-notice-text {
     color: #000;
-    font-size: 16px;
 }
 
 .adv-title a {
