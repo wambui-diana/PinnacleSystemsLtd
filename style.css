@@ -6562,8 +6562,8 @@ form button:focus {
 }
 
 .ft-300 {
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 30px !important;
+    font-weight: 500 !important;
 }
 
 .about-us-col2 {
@@ -6797,11 +6797,10 @@ form button:focus {
     
     .row4 p {
         font-size: 16px;
-        font-family: 'Roboto', sans-serif;
     }
 
     .row2 .ft-300 {
-        font-size: 30px;
+        font-size: 30px !important;
     }
 
     .about-us-col1 p {
@@ -6930,7 +6929,7 @@ form button:focus {
     }
 
     .row2 .ft-300 {
-        font-size: 30px;
+        font-size: 30px !important;
     }
 
     .about-us-col1 p {
@@ -7059,7 +7058,7 @@ form button:focus {
     }
 
     .row2 .ft-300 {
-        font-size: 30px;
+        font-size: 28px !important;
     }
 
     .about-us-col1 p {
@@ -7200,7 +7199,7 @@ form button:focus {
     }
 
     .row2 .ft-300 {
-        font-size: 20px;
+        font-size: 26px !important;
     }
 
     .our-people {
@@ -7343,7 +7342,7 @@ form button:focus {
     .row4 {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 80px;
+        margin-top: 20px;
         align-items: center;
     }
     
@@ -7354,7 +7353,7 @@ form button:focus {
     }
 
     .ft-300 {
-        font-size: 20px;
+        font-size: 26px !important;
     }
 
     .about-us-col1 {
@@ -7375,9 +7374,15 @@ form button:focus {
     .about-us-col2 {
         width: 100%;
         padding: 0;
-        width: 90%;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 10px;
+    }
+
+    .about .about-us-col2 {
+        width: 100%;
+        padding: 0;
+        margin-top: 0px;
+        margin-left: 15px !important;
     }
 
     .our-people {
@@ -7507,17 +7512,16 @@ form button:focus {
     .row4 {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 20px;
         align-items: center;
     }
     
     .row4 p {
         font-size: 16px;
-        font-family: 'Roboto', sans-serif;
     }
 
     .row2 .ft-300 {
-        font-size: 24px;
+        font-size: 24px !important;
     }
 
     .about-us-col1 {
@@ -7587,9 +7591,15 @@ form button:focus {
     .about-us-col2 {
         width: 100%;
         padding: 0;
-        width: 90%;
         margin-top: 20px;
         margin-left: 0px;
+    }
+
+    .about .about-us-col2 {
+        width: 100%;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 15px !important;
     }
     
     .row5 {
@@ -7693,21 +7703,16 @@ form button:focus {
     .row4 {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 20px;
         align-items: center;
     }
 
     .row4 h5 {
         font-size: 20px !important;
     }
-    
-    .row4 p {
-        font-size: 16px;
-        font-family: 'Roboto', sans-serif;
-    }
 
     .row2 .ft-300 {
-        font-size: 22px;
+        font-size: 22px !important;
     }
 
     .about-us-col1 p {
@@ -7773,9 +7778,15 @@ form button:focus {
     .about-us-col2 {
         width: 100%;
         padding: 0;
-        width: 90%;
         margin-top: 20px;
         margin-left: 10px;
+    }
+
+    .about .about-us-col2 {
+        width: 100%;
+        padding: 0;
+        margin-top: 20px;
+        margin-left: 15px !important;
     }
     
     .row5 {
@@ -7888,21 +7899,16 @@ form button:focus {
     .row4 {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 20px;
         align-items: center;
     }
 
     .row4 h5 {
         font-size: 16px !important;
     }
-    
-    .row4 p {
-        font-size: 16px;
-        font-family: 'Roboto', sans-serif;
-    }
 
     .row2 .ft-300 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     .about-us-col1 p {
@@ -7967,6 +7973,13 @@ form button:focus {
         width: 90%;
         margin-top: 20px;
         margin-left: 20px;
+    }
+
+    .about .about-us-col2 {
+        width: 100%;
+        padding: 0;
+        margin-top: 20px;
+        margin-left: 15px !important;
     }
     
     .row5 {
@@ -8081,17 +8094,12 @@ form button:focus {
     .row4 {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 20px;
         align-items: center;
-    }
-    
-    .row4 p {
-        font-size: 16px;
-        font-family: 'Roboto', sans-serif;
     }
 
     .row2 .ft-300 {
-        font-size: 14px;
+        font-size: 20px !important;
     }
 
     .about-us-col1 p {
@@ -8153,9 +8161,15 @@ form button:focus {
     .about-us-col2 {
         width: 100%;
         padding: 0;
-        width: 90%;
         margin-top: 20px;
         margin-left: 10px;
+    }
+
+    .about .about-us-col2 {
+        width: 100%;
+        padding: 0;
+        margin-top: 0px;
+        margin-left: 15px !important;
     }
     
     .row5 {
