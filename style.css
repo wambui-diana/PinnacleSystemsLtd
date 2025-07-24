@@ -2230,7 +2230,7 @@ nav {
     font-weight: 300;
     font-size: 40px;
     margin: 0 auto 20px;
-    padding: 100px 0 20px;
+    padding: 60px 0 20px;
     width: 450px;
 }
 
@@ -2358,7 +2358,7 @@ form button:focus {
     align-items: center;
     width: auto;
     height: auto;
-    margin: 100px 300px;
+    margin: 60px 300px;
     flex-direction: column;
 }
 
@@ -2637,7 +2637,7 @@ form button:focus {
     .container23-intro-text h1 {
         font-size: 40px;
         margin: 0 auto 20px;
-        padding: 100px 0 20px;
+        padding: 60px 0 20px;
         width: 450px;
     }
 
@@ -2716,7 +2716,7 @@ form button:focus {
         align-items: center;
         width: auto;
         height: auto;
-        margin: 100px 150px;
+        margin: 60px 150px;
         flex-direction: column;
     }
 
@@ -2935,7 +2935,7 @@ form button:focus {
     .container23-intro-text h1 {
         font-size: 40px;
         margin: 0 auto 20px;
-        padding: 100px 0 20px;
+        padding: 60px 0 20px;
         width: 450px;
     }
 
@@ -3014,7 +3014,7 @@ form button:focus {
         align-items: center;
         width: auto;
         height: auto;
-        margin: 100px 100px;
+        margin: 60px 100px;
         flex-direction: column;
     }
 
@@ -3236,7 +3236,7 @@ form button:focus {
     .container23-intro-text h1 {
         font-size: 40px;
         margin: 0 auto 20px;
-        padding: 100px 0 20px;
+        padding: 60px 0 20px;
         width: 450px;
     }
 
@@ -3315,7 +3315,7 @@ form button:focus {
         align-items: center;
         width: auto;
         height: auto;
-        margin: 100px 80px;
+        margin: 60px 80px;
         flex-direction: column;
     }
 
@@ -3538,7 +3538,7 @@ form button:focus {
     .container23-intro-text h1 {
         font-size: 40px;
         margin: 0 auto 20px;
-        padding: 100px 0 20px;
+        padding: 60px 0 20px;
         width: 450px;
     }
 
@@ -3618,7 +3618,7 @@ form button:focus {
         align-items: center;
         width: auto;
         height: auto;
-        margin: 100px 100px;
+        margin: 60px 100px;
         flex-direction: column;
     }
 
@@ -3850,7 +3850,7 @@ form button:focus {
     .container23-intro-text h1 {
         font-size: 40px;
         margin: 0 auto 20px;
-        padding: 100px 0 20px;
+        padding: 60px 0 20px;
         width: 450px;
     }
 
@@ -3936,7 +3936,7 @@ form button:focus {
         align-items: center;
         width: auto;
         height: auto;
-        margin: 100px 80px;
+        margin: 60px 80px;
         flex-direction: column;
     }
 
@@ -4279,7 +4279,7 @@ form button:focus {
     .container23-intro-text h1 {
         font-size: 40px;
         margin: 0 auto 20px;
-        padding: 100px 0 20px;
+        padding: 60px 0 20px;
         width: 450px;
     }
 
@@ -4364,7 +4364,7 @@ form button:focus {
         align-items: center;
         width: auto;
         height: auto;
-        margin: 100px 0px;
+        margin: 60px 0px;
         flex-direction: column;
     }
 
@@ -4456,7 +4456,7 @@ form button:focus {
         align-items: center;
         width: auto;
         height: auto;
-        margin: 100px 20px;
+        margin: 60px 20px;
         flex-direction: column;
     }
 
@@ -4676,7 +4676,7 @@ form button:focus {
     .container23-intro-text h1 {
         font-size: 36px;
         margin: 0 40px 20px;
-        padding: 100px 0 20px;
+        padding: 60px 0 20px;
         width: 450px;
     }
 
@@ -4761,7 +4761,7 @@ form button:focus {
         text-align: left;
         width: auto;
         height: auto;
-        margin: 100px 40px 50px;
+        margin: 60px 40px 50px;
         flex-direction: column;
     }
 
@@ -5059,7 +5059,7 @@ form button:focus {
     .container23-intro-text h1 {
         font-size: 30px;
         margin: 0 30px 20px;
-        padding: 100px 0 20px;
+        padding: 60px 0 20px;
         width: 450px;
     }
 
@@ -5144,7 +5144,7 @@ form button:focus {
         text-align: left;
         width: auto;
         height: auto;
-        margin: 100px 30px 50px;
+        margin: 60px 30px 50px;
         flex-direction: column;
     }
 
@@ -5498,7 +5498,7 @@ form button:focus {
     .container23-intro-text h1 {
         font-size: 30px;
         margin: 0 20px 20px;
-        padding: 100px 0 20px;
+        padding: 60px 0 20px;
         width: 450px;
         font-weight: 400;
         width: auto;
@@ -5598,7 +5598,7 @@ form button:focus {
         text-align: left;
         width: auto;
         height: auto;
-        margin: 100px 0 50px;
+        margin: 60px 0 50px;
         flex-direction: column;
     }
 
@@ -6276,7 +6276,7 @@ form button:focus {
     }
 
     .footer-logo {
-        margin: 0 0 30px 5px;
+        margin: 0 0 30px 10px;
         width: 40%;
     }
 
