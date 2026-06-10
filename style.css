@@ -29,10 +29,6 @@ body {
     scroll-behavior: smooth !important;
 }
 
-.favicon-logo {
-    width: 40%;
-}
-
 #preloader {
     background-color: #fff;
     height: 100vh;
@@ -334,6 +330,7 @@ nav {
 .logo img {
     width: 100px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .toggle-menu img,
@@ -1351,7 +1348,7 @@ nav {
     }
 
     .logo img {
-        margin: -20px 0 0 0px;
+        margin: -20px 0 0 10px;
     }
 
     .content:nth-child(1) {
@@ -5698,6 +5695,7 @@ form button:focus {
 /*-----Footer-----*/
 .container1 {
     margin: 50px 300px 0;
+    cursor: pointer;
 }
 
 .footer {
@@ -5794,6 +5792,7 @@ form button:focus {
 .footer-text .icon {
     width: 36px;
     padding-right: 16px;
+    margin-top: -5px;
 }
 
 .footer hr {
@@ -6300,7 +6299,7 @@ form button:focus {
     bottom: 30px;
     right: 50px;
     padding: 10px;
-    background-color: #273B8B !important;
+    background-color: #0488C6 !important;
     color: #fff;
     height: 50px;
     width: 50px;
@@ -8749,6 +8748,10 @@ form button:focus {
     background-color: #F9F9FC;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.faq-products{
+    color: #0488C6;
 }
 
 #more {
@@ -13636,7 +13639,7 @@ form button:focus {
 
 .arrow-down2 {
     font-size: 40px;
-    color: #273B8B;
+    color: #0488C6;
 }
 
 .container15 {
@@ -13706,7 +13709,7 @@ form button:focus {
 .faq-col1 button {
     background-color: #fff;
     font-family: 'Zilla Slab', sans-serif;
-    border: none;
+    border: none !important;
     color: #273B8B;
     border-radius: 50px;
     width: 250px;
