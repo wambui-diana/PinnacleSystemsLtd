@@ -13749,13 +13749,6 @@ form button:focus {
     border-right: none !important;
 }
 
-.accordion-item h3 {
-    color:#273B8B;
-    font-family: 'Martel', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
 .accordion .accordion-item {
     border: none;
     border-bottom: 1px solid #e5e5e5;
@@ -13842,7 +13835,7 @@ form button:focus {
 
 .accordion button[aria-expanded='true'] + .accordion-content {
     opacity: 1;
-    max-height: 9em;
+    max-height: 12em;
     transition: all 200ms linear;
     will-change: opacity, max-height;
 }
@@ -14848,7 +14841,7 @@ form button:focus {
     
     .accordion button {
         font-size: 16px;
-        padding-right: 28px;
+        padding-right: 30px;
     }
 
     .accordion .accordion-content p {
@@ -15131,7 +15124,7 @@ form button:focus {
     }
 
     .accordion button .accordion-title {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .accordion .accordion-content p {
